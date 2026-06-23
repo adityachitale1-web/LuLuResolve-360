@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ckpt
+
+# Saved model artifacts (regenerate by running the notebook)
+*.keras
+*.h5
+*.pkl
+
+# Course handbook (not part of the code deliverable)
+LuluCare360_Handbook.docx
+LuluCare360_Handbook.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

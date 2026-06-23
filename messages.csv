@@ -1,0 +1,631 @@
+message_id,customer_id,text,issue_type,frustration
+M0498,C0191,This is frustrating — the payment page is not loading. I'd like this fixed.,App_Technical,Medium
+M0245,C0024,I have HAD enough — the return pickup was never scheduled. Sort it out or refund me!!,Refund_Return,High
+M0553,C0158,"Hi, can you tell me the store timings. Appreciate it.",General_Query,Low
+M0214,C0124,I'm a bit annoyed that I am still waiting for the refund you promised. This needs attention.,Refund_Return,Medium
+M0550,C0036,"Hi team, do you deliver to my area. Appreciate it.",General_Query,Low
+M0507,C0029,I'm disappointed that I cannot track my order in the app. I'd like this fixed.,App_Technical,Medium
+M0606,C0070,This is outrageous!! how do I add an address to my account. Fix this NOW or I'm leaving for good!,General_Query,High
+M0078,C0139,This is outrageous!! my shipment is stuck and not moving. I'm escalating this everywhere!,Delivery,High
+M0532,C0072,I am ABSOLUTELY furious!! the payment page is not loading. This is the third time — enough!!,App_Technical,High
+M0146,C0104,I'm a bit annoyed that there were parts missing and the unit is faulty. I'd like this fixed.,Damaged_Defective,Medium
+M0269,C0105,This is the LAST straw. please refund me for the order I sent back. I will never shop here again!,Refund_Return,High
+M0032,C0166,This is frustrating — the courier never showed up. Please sort this out soon.,Delivery,Medium
+M0056,C0146,It's bothering me that the delivery date keeps getting pushed. Please look into it.,Delivery,Medium
+M0091,C0215,"Hi, the screen was cracked when I opened it. Please let me know.",Damaged_Defective,Low
+M0415,C0209,I'm disappointed that this is not the quality I expected from Lulu.,Product_Quality,Medium
+M0077,C0179,This is the LAST straw. the delivery is late again. Sort it out or refund me!!,Delivery,High
+M0003,C0058,"Hi, I have been waiting for my package for days.",Delivery,Low
+M0480,C0186,"Hi team, the website freezes when I add items to cart. Thank you.",App_Technical,Low
+M0189,C0157,"Good morning, I am still waiting for the refund you promised. Appreciate it.",Refund_Return,Low
+M0614,C0197,I am done with Lulu! how do I add an address to my account. I want this resolved immediately!!,General_Query,High
+M0132,C0147,The screen was cracked when I opened it. Kindly resolve.,Damaged_Defective,Medium
+M0149,C0027,This is frustrating — the headphones is defective and will not switch on. Kindly resolve.,Damaged_Defective,Medium
+M0050,C0096,I'm a bit annoyed that nobody delivered my order today as promised. This needs attention.,Delivery,Medium
+M0627,C0144,I am ABSOLUTELY furious!! I just wanted to ask about your return policy. This is the third time — enough!!,General_Query,High
+M0478,C0041,"Hello, I cannot log into my account on the app. Kind regards.",App_Technical,Low
+M0111,C0125,"Good morning, the product was damaged in the box. Appreciate it.",Damaged_Defective,Low
+M0159,C0013,I have HAD enough — there were parts missing and the unit is faulty. This is the third time — enough!!,Damaged_Defective,High
+M0594,C0030,I'm disappointed that how do I add an address to my account. This needs attention.,General_Query,Medium
+M0626,C0071,This is the LAST straw. how do I add an address to my account. I want this resolved immediately!!,General_Query,High
+M0404,C0102,I'm unhappy because the laptop feels cheap and not worth the price.,Product_Quality,Medium
+M0164,C0176,This is the LAST straw. the product was damaged in the box. I'm escalating this everywhere!,Damaged_Defective,High
+M0265,C0118,This is the LAST straw. I am still waiting for the refund you promised. Fix this NOW or I'm leaving for good!,Refund_Return,High
+M0257,C0083,This is outrageous!! I returned the product but no refund came. I want this resolved immediately!!,Refund_Return,High
+M0290,C0035,"Hi there, the invoice amount is wrong. Looking forward to your reply.",Billing,Low
+M0133,C0137,This is frustrating — there were parts missing and the unit is faulty.,Damaged_Defective,Medium
+M0332,C0134,I am ABSOLUTELY furious!! the invoice amount is wrong. This is the third time — enough!!,Billing,High
+M0454,C0138,"Hi, I cannot track my order in the app.",App_Technical,Low
+M0618,C0012,I am ABSOLUTELY furious!! I just wanted to ask about your return policy. I will never shop here again!,General_Query,High
+M0317,C0170,I see a payment I never authorized. Kindly resolve.,Billing,Medium
+M0319,C0037,You billed me after I cancelled. I'd like this fixed.,Billing,Medium
+M0358,C0050,I have HAD enough — the invoice amount is wrong. I will never shop here again!,Billing,High
+M0040,C0209,I'm a bit annoyed that the delivery is late again. I'd like this fixed.,Delivery,Medium
+M0087,C0121,I am done with Lulu! my order still has not arrived. Sort it out or refund me!!,Delivery,High
+M0339,C0106,Completely unacceptable!! the invoice amount is wrong. I want this resolved immediately!!,Billing,High
+M0418,C0144,This is frustrating — the product looks nothing like the description.,Product_Quality,Medium
+M0210,C0056,The return pickup was never scheduled. Appreciate it.,Refund_Return,Low
+M0474,C0049,"Hi, the app shows an error every time I open it. Thanks for your help.",App_Technical,Low
+M0572,C0128,I'm a bit annoyed that can you tell me the store timings.,General_Query,Medium
+M0079,C0077,This is outrageous!! I have been waiting for my package for days. I will never shop here again!,Delivery,High
+M0351,C0017,Completely unacceptable!! I see a payment I never authorized. Fix this NOW or I'm leaving for good!,Billing,High
+M0177,C0127,I have HAD enough — there were parts missing and the unit is faulty. I'm escalating this everywhere!,Damaged_Defective,High
+M0287,C0169,"Hello, I was charged twice for the same order. Please let me know.",Billing,Low
+M0011,C0061,"Hi there, the courier never showed up.",Delivery,Low
+M0262,C0138,I am ABSOLUTELY furious!! please refund me for the order I sent back. I want this resolved immediately!!,Refund_Return,High
+M0471,C0107,"Hi there, the payment page is not loading. Thanks for your help.",App_Technical,Low
+M0175,C0001,I am done with Lulu! the screen was cracked when I opened it. I want this resolved immediately!!,Damaged_Defective,High
+M0136,C0168,It's bothering me that there were parts missing and the unit is faulty. I'd like this fixed.,Damaged_Defective,Medium
+M0457,C0011,"Hi there, the app keeps crashing when I try to checkout.",App_Technical,Low
+M0212,C0118,I am still waiting for the refund you promised. This needs attention.,Refund_Return,Medium
+M0031,C0072,The courier never showed up.,Delivery,Medium
+M0585,C0023,I'm a bit annoyed that I just wanted to ask about your return policy. This needs attention.,General_Query,Medium
+M0495,C0040,It's bothering me that the app shows an error every time I open it. I'd like this fixed.,App_Technical,Medium
+M0342,C0089,I am done with Lulu! the amount deducted is more than the order total. This is the third time — enough!!,Billing,High
+M0042,C0045,Not happy that nobody delivered my order today as promised. Hoping for a quick resolution.,Delivery,Medium
+M0588,C0187,I'm disappointed that I have a question about my loyalty points. I'd like this fixed.,General_Query,Medium
+M0266,C0023,I am done with Lulu! I am still waiting for the refund you promised. Fix this NOW or I'm leaving for good!,Refund_Return,High
+M0057,C0157,This is frustrating — my order still has not arrived. This needs attention.,Delivery,Medium
+M0405,C0014,I'm a bit annoyed that the quality of this product is poor. Please sort this out soon.,Product_Quality,Medium
+M0540,C0139,This is the LAST straw. I cannot track my order in the app. This is the third time — enough!!,App_Technical,High
+M0397,C0189,I'm disappointed that the material is low quality and wore out fast. Hoping for a quick resolution.,Product_Quality,Medium
+M0156,C0006,This is the LAST straw. the blender is defective and will not switch on. I'm escalating this everywhere!,Damaged_Defective,High
+M0025,C0200,The courier never showed up.,Delivery,Low
+M0083,C0161,I am done with Lulu! my order still has not arrived. I'm escalating this everywhere!,Delivery,High
+M0365,C0104,"Hello, the material is low quality and wore out fast. Kind regards.",Product_Quality,Low
+M0216,C0130,Not happy that I want to return this item and get my money back. Kindly resolve.,Refund_Return,Medium
+M0599,C0143,It's bothering me that I just wanted to ask about your return policy. Hoping for a quick resolution.,General_Query,Medium
+M0488,C0056,I'm disappointed that the website freezes when I add items to cart. Please sort this out soon.,App_Technical,Medium
+M0071,C0097,I am done with Lulu! my order still has not arrived. I want this resolved immediately!!,Delivery,High
+M0364,C0209,"Hi there, the material is low quality and wore out fast. Kind regards.",Product_Quality,Low
+M0611,C0205,I have HAD enough — is this product available in the Dubai store. Fix this NOW or I'm leaving for good!,General_Query,High
+M0282,C0065,I see a payment I never authorized. Appreciate it.,Billing,Low
+M0061,C0064,I am done with Lulu! my order still has not arrived. I want this resolved immediately!!,Delivery,High
+M0406,C0068,Not happy that the quality of this product is poor.,Product_Quality,Medium
+M0413,C0089,It's bothering me that this is not the quality I expected from Lulu. Kindly resolve.,Product_Quality,Medium
+M0211,C0012,This is frustrating — how do I send this back for a refund. Kindly resolve.,Refund_Return,Medium
+M0600,C0204,I'm a bit annoyed that I have a question about my loyalty points. I'd like this fixed.,General_Query,Medium
+M0166,C0070,This is outrageous!! the item arrived broken. This is the third time — enough!!,Damaged_Defective,High
+M0248,C0122,I have HAD enough — my refund has not been processed yet. This is the third time — enough!!,Refund_Return,High
+M0276,C0076,"Hi there, there is an extra charge on my bill I do not understand. Thank you.",Billing,Low
+M0258,C0043,I am ABSOLUTELY furious!! the return pickup was never scheduled. Fix this NOW or I'm leaving for good!,Refund_Return,High
+M0291,C0092,"Hi there, the invoice amount is wrong. Please let me know.",Billing,Low
+M0458,C0126,"Hi there, the payment page is not loading. Thank you.",App_Technical,Low
+M0030,C0175,"Good morning, my shipment is stuck and not moving.",Delivery,Low
+M0193,C0177,"Hello, the return pickup was never scheduled. Looking forward to your reply.",Refund_Return,Low
+M0102,C0195,The item arrived broken. Appreciate it.,Damaged_Defective,Low
+M0305,C0163,I was charged twice for the same order. Hoping for a quick resolution.,Billing,Medium
+M0229,C0190,I want to return this item and get my money back. Please look into it.,Refund_Return,Medium
+M0279,C0153,You billed me after I cancelled.,Billing,Low
+M0299,C0207,"Hello Lulu, the amount deducted is more than the order total. Thanks for your help.",Billing,Low
+M0275,C0057,My coupon was not applied at checkout.,Billing,Low
+M0205,C0122,"Good morning, please refund me for the order I sent back. Please let me know.",Refund_Return,Low
+M0430,C0113,This is the LAST straw. the material is low quality and wore out fast. I'm escalating this everywhere!,Product_Quality,High
+M0453,C0195,"Good morning, I cannot log into my account on the app. Thanks for your help.",App_Technical,Low
+M0596,C0173,This is frustrating — how can I change my registered phone number. I'd like this fixed.,General_Query,Medium
+M0300,C0041,"Hi there, I see a payment I never authorized.",Billing,Low
+M0082,C0110,I am done with Lulu! my order still has not arrived. Fix this NOW or I'm leaving for good!,Delivery,High
+M0228,C0139,I'm a bit annoyed that please refund me for the order I sent back.,Refund_Return,Medium
+M0110,C0023,"Hi team, there were parts missing and the unit is faulty. Please let me know.",Damaged_Defective,Low
+M0249,C0030,This is outrageous!! the return pickup was never scheduled. Fix this NOW or I'm leaving for good!,Refund_Return,High
+M0426,C0180,Completely unacceptable!! the product looks nothing like the description. I will never shop here again!,Product_Quality,High
+M0064,C0188,Completely unacceptable!! my order still has not arrived. Sort it out or refund me!!,Delivery,High
+M0548,C0177,"Hello, I have a question about my loyalty points. Appreciate it.",General_Query,Low
+M0073,C0158,I am done with Lulu! my order still has not arrived. This is the third time — enough!!,Delivery,High
+M0569,C0042,"Hi team, can you tell me the store timings. Kind regards.",General_Query,Low
+M0285,C0085,I was charged twice for the same order. Thanks for your help.,Billing,Low
+M0119,C0147,"Hi team, my phone stopped working on day one.",Damaged_Defective,Low
+M0590,C0161,Do you deliver to my area.,General_Query,Medium
+M0292,C0156,"Hi team, you billed me after I cancelled.",Billing,Low
+M0381,C0089,"Good morning, the item works but the build quality is bad.",Product_Quality,Low
+M0213,C0136,I am still waiting for the refund you promised. This needs attention.,Refund_Return,Medium
+M0141,C0036,The package was crushed and the item dented. Please look into it.,Damaged_Defective,Medium
+M0389,C0039,The speaker feels cheap and not worth the price. Appreciate it.,Product_Quality,Low
+M0323,C0025,It's bothering me that you billed me after I cancelled.,Billing,Medium
+M0219,C0141,I'm unhappy because the return pickup was never scheduled. Kindly resolve.,Refund_Return,Medium
+M0463,C0138,"Hello Lulu, the website freezes when I add items to cart.",App_Technical,Low
+M0512,C0160,I have HAD enough — the website freezes when I add items to cart. Sort it out or refund me!!,App_Technical,High
+M0336,C0150,Completely unacceptable!! there is an extra charge on my bill I do not understand. I'm escalating this everywhere!,Billing,High
+M0007,C0198,"Good morning, the delivery is late again. Please let me know.",Delivery,Low
+M0105,C0175,"Hello, the item arrived broken. Please let me know.",Damaged_Defective,Low
+M0115,C0093,There were parts missing and the unit is faulty.,Damaged_Defective,Low
+M0534,C0187,This is the LAST straw. I cannot track my order in the app. Fix this NOW or I'm leaving for good!,App_Technical,High
+M0185,C0117,I want to return this item and get my money back. Please let me know.,Refund_Return,Low
+M0239,C0153,How do I send this back for a refund. I'd like this fixed.,Refund_Return,Medium
+M0517,C0070,This is outrageous!! the search on the app is not working. This is the third time — enough!!,App_Technical,High
+M0437,C0216,This is the LAST straw. this is not the quality I expected from Lulu. I want this resolved immediately!!,Product_Quality,High
+M0341,C0124,I have HAD enough — the amount deducted is more than the order total. This is the third time — enough!!,Billing,High
+M0424,C0035,I am ABSOLUTELY furious!! the item works but the build quality is bad. I want this resolved immediately!!,Product_Quality,High
+M0303,C0133,I was charged twice for the same order. Hoping for a quick resolution.,Billing,Medium
+M0564,C0117,"Good morning, can you tell me the store timings. Kind regards.",General_Query,Low
+M0396,C0200,It's bothering me that the product looks nothing like the description.,Product_Quality,Medium
+M0297,C0151,"Hello, the invoice amount is wrong. Please let me know.",Billing,Low
+M0486,C0092,The app shows an error every time I open it.,App_Technical,Medium
+M0043,C0092,This is frustrating — the delivery is late again. This needs attention.,Delivery,Medium
+M0074,C0111,This is outrageous!! the courier never showed up. Fix this NOW or I'm leaving for good!,Delivery,High
+M0546,C0048,"Hi team, do you deliver to my area.",General_Query,Low
+M0067,C0167,Completely unacceptable!! my order still has not arrived. This is the third time — enough!!,Delivery,High
+M0012,C0072,"Good morning, the courier never showed up.",Delivery,Low
+M0602,C0097,I am ABSOLUTELY furious!! how can I change my registered phone number. I will never shop here again!,General_Query,High
+M0593,C0018,I'm unhappy because I just wanted to ask about your return policy. I'd like this fixed.,General_Query,Medium
+M0421,C0176,I have HAD enough — the product looks nothing like the description. I'm escalating this everywhere!,Product_Quality,High
+M0400,C0042,It's bothering me that the product looks nothing like the description.,Product_Quality,Medium
+M0357,C0218,I am ABSOLUTELY furious!! my coupon was not applied at checkout. I want this resolved immediately!!,Billing,High
+M0084,C0025,Completely unacceptable!! my shipment is stuck and not moving. I want this resolved immediately!!,Delivery,High
+M0288,C0207,The amount deducted is more than the order total. Kind regards.,Billing,Low
+M0370,C0098,"Hello Lulu, the watch quality has gone down compared to before. Thanks for your help.",Product_Quality,Low
+M0080,C0101,I am ABSOLUTELY furious!! the delivery is late again. Fix this NOW or I'm leaving for good!,Delivery,High
+M0024,C0025,"Good morning, my order still has not arrived. Thank you.",Delivery,Low
+M0584,C0157,It's bothering me that how do I add an address to my account. Please look into it.,General_Query,Medium
+M0311,C0155,The invoice amount is wrong.,Billing,Medium
+M0589,C0060,Not happy that do you deliver to my area. Please look into it.,General_Query,Medium
+M0197,C0126,"Good morning, please refund me for the order I sent back.",Refund_Return,Low
+M0482,C0102,I'm unhappy because the app shows an error every time I open it. Hoping for a quick resolution.,App_Technical,Medium
+M0260,C0172,I am ABSOLUTELY furious!! I am still waiting for the refund you promised. I want this resolved immediately!!,Refund_Return,High
+M0138,C0218,I'm disappointed that there were parts missing and the unit is faulty. Hoping for a quick resolution.,Damaged_Defective,Medium
+M0232,C0004,Not happy that how do I send this back for a refund. Kindly resolve.,Refund_Return,Medium
+M0306,C0045,I'm disappointed that you billed me after I cancelled. Kindly resolve.,Billing,Medium
+M0178,C0020,I am ABSOLUTELY furious!! the product was damaged in the box. This is the third time — enough!!,Damaged_Defective,High
+M0010,C0169,"Hi there, nobody delivered my order today as promised.",Delivery,Low
+M0204,C0058,"Good morning, I am still waiting for the refund you promised.",Refund_Return,Low
+M0514,C0150,I am ABSOLUTELY furious!! I cannot track my order in the app. Sort it out or refund me!!,App_Technical,High
+M0329,C0123,You billed me after I cancelled.,Billing,Medium
+M0616,C0010,This is the LAST straw. can you tell me the store timings. I'm escalating this everywhere!,General_Query,High
+M0272,C0012,The invoice amount is wrong. Kind regards.,Billing,Low
+M0085,C0164,This is the LAST straw. my order still has not arrived. I want this resolved immediately!!,Delivery,High
+M0182,C0218,"Hi there, please refund me for the order I sent back.",Refund_Return,Low
+M0347,C0158,I am done with Lulu! you billed me after I cancelled. This is the third time — enough!!,Billing,High
+M0447,C0014,This is the LAST straw. the material is low quality and wore out fast. I will never shop here again!,Product_Quality,High
+M0519,C0070,Completely unacceptable!! the app keeps crashing when I try to checkout. I'm escalating this everywhere!,App_Technical,High
+M0504,C0198,This is frustrating — the website freezes when I add items to cart. Hoping for a quick resolution.,App_Technical,Medium
+M0250,C0062,I am done with Lulu! I am still waiting for the refund you promised. Sort it out or refund me!!,Refund_Return,High
+M0179,C0060,I am done with Lulu! the phone is defective and will not switch on. I'm escalating this everywhere!,Damaged_Defective,High
+M0221,C0173,This is frustrating — my refund has not been processed yet. This needs attention.,Refund_Return,Medium
+M0154,C0208,This is the LAST straw. there were parts missing and the unit is faulty. I want this resolved immediately!!,Damaged_Defective,High
+M0076,C0085,I am ABSOLUTELY furious!! the delivery is late again. Fix this NOW or I'm leaving for good!,Delivery,High
+M0093,C0142,"Hello Lulu, there were parts missing and the unit is faulty. Thank you.",Damaged_Defective,Low
+M0500,C0051,I'm unhappy because the search on the app is not working. I'd like this fixed.,App_Technical,Medium
+M0069,C0076,I am ABSOLUTELY furious!! the courier never showed up. Fix this NOW or I'm leaving for good!,Delivery,High
+M0016,C0206,"Hello, the delivery is late again. Please let me know.",Delivery,Low
+M0200,C0081,How do I send this back for a refund. Thank you.,Refund_Return,Low
+M0574,C0114,This is frustrating — can you tell me the store timings. This needs attention.,General_Query,Medium
+M0089,C0048,I have HAD enough — the delivery date keeps getting pushed. Sort it out or refund me!!,Delivery,High
+M0527,C0101,I am done with Lulu! the website freezes when I add items to cart. Sort it out or refund me!!,App_Technical,High
+M0118,C0215,"Good morning, the product was damaged in the box. Kind regards.",Damaged_Defective,Low
+M0425,C0117,I am ABSOLUTELY furious!! the material is low quality and wore out fast. I'm escalating this everywhere!,Product_Quality,High
+M0451,C0177,"Hello, the payment page is not loading. Thanks for your help.",App_Technical,Low
+M0034,C0205,Not happy that I have been waiting for my package for days. I'd like this fixed.,Delivery,Medium
+M0001,C0083,"Hello Lulu, my order still has not arrived. Looking forward to your reply.",Delivery,Low
+M0623,C0050,I am done with Lulu! can you tell me the store timings. I want this resolved immediately!!,General_Query,High
+M0209,C0066,"Hello, how do I send this back for a refund. Looking forward to your reply.",Refund_Return,Low
+M0382,C0133,"Hi there, this is not the quality I expected from Lulu.",Product_Quality,Low
+M0579,C0170,I just wanted to ask about your return policy. I'd like this fixed.,General_Query,Medium
+M0523,C0153,I am done with Lulu! the app keeps crashing when I try to checkout. Sort it out or refund me!!,App_Technical,High
+M0278,C0142,"Hi there, you billed me after I cancelled. Looking forward to your reply.",Billing,Low
+M0023,C0045,"Hello Lulu, the courier never showed up. Thanks for your help.",Delivery,Low
+M0612,C0049,I have HAD enough — is this product available in the Dubai store. I want this resolved immediately!!,General_Query,High
+M0117,C0115,The item arrived broken. Thanks for your help.,Damaged_Defective,Low
+M0090,C0048,Completely unacceptable!! I have been waiting for my package for days. I will never shop here again!,Delivery,High
+M0183,C0044,"Hi, please refund me for the order I sent back. Thanks for your help.",Refund_Return,Low
+M0251,C0063,I have HAD enough — I am still waiting for the refund you promised. This is the third time — enough!!,Refund_Return,High
+M0261,C0109,This is the LAST straw. I am still waiting for the refund you promised. I'm escalating this everywhere!,Refund_Return,High
+M0019,C0138,"Hello, my order still has not arrived. Thank you.",Delivery,Low
+M0335,C0028,Completely unacceptable!! the amount deducted is more than the order total. I will never shop here again!,Billing,High
+M0355,C0015,This is outrageous!! the amount deducted is more than the order total. This is the third time — enough!!,Billing,High
+M0145,C0196,This is frustrating — there were parts missing and the unit is faulty. This needs attention.,Damaged_Defective,Medium
+M0312,C0185,The invoice amount is wrong. Kindly resolve.,Billing,Medium
+M0313,C0042,Not happy that I was charged twice for the same order.,Billing,Medium
+M0595,C0008,I'm disappointed that do you deliver to my area. Hoping for a quick resolution.,General_Query,Medium
+M0399,C0162,This is frustrating — the item works but the build quality is bad. Kindly resolve.,Product_Quality,Medium
+M0586,C0181,I'm unhappy because is this product available in the Dubai store. Kindly resolve.,General_Query,Medium
+M0444,C0187,This is the LAST straw. the material is low quality and wore out fast. I'm escalating this everywhere!,Product_Quality,High
+M0375,C0068,The headphones quality has gone down compared to before. Looking forward to your reply.,Product_Quality,Low
+M0445,C0134,This is outrageous!! the quality of this product is poor. This is the third time — enough!!,Product_Quality,High
+M0168,C0185,I am ABSOLUTELY furious!! the screen was cracked when I opened it. This is the third time — enough!!,Damaged_Defective,High
+M0055,C0001,I'm unhappy because I have been waiting for my package for days.,Delivery,Medium
+M0443,C0080,Completely unacceptable!! the watch feels cheap and not worth the price. I'm escalating this everywhere!,Product_Quality,High
+M0047,C0158,This is frustrating — my shipment is stuck and not moving.,Delivery,Medium
+M0094,C0122,"Good morning, the item arrived broken. Kind regards.",Damaged_Defective,Low
+M0293,C0188,"Hi team, I was charged twice for the same order.",Billing,Low
+M0429,C0073,This is the LAST straw. the quality of this product is poor. Fix this NOW or I'm leaving for good!,Product_Quality,High
+M0109,C0199,"Hello, the item arrived broken. Appreciate it.",Damaged_Defective,Low
+M0302,C0060,The invoice amount is wrong. Hoping for a quick resolution.,Billing,Medium
+M0196,C0130,The return pickup was never scheduled. Thanks for your help.,Refund_Return,Low
+M0630,C0147,This is outrageous!! can you tell me the store timings. I will never shop here again!,General_Query,High
+M0522,C0182,Completely unacceptable!! I cannot log into my account on the app. This is the third time — enough!!,App_Technical,High
+M0487,C0060,This is frustrating — I cannot log into my account on the app. Hoping for a quick resolution.,App_Technical,Medium
+M0236,C0045,Not happy that I returned the product but no refund came.,Refund_Return,Medium
+M0576,C0048,I'm unhappy because I have a question about my loyalty points.,General_Query,Medium
+M0423,C0049,I am done with Lulu! the product looks nothing like the description. Sort it out or refund me!!,Product_Quality,High
+M0008,C0063,"Hello, nobody delivered my order today as promised. Looking forward to your reply.",Delivery,Low
+M0577,C0009,I'm a bit annoyed that can you tell me the store timings.,General_Query,Medium
+M0439,C0099,This is outrageous!! the item works but the build quality is bad. I want this resolved immediately!!,Product_Quality,High
+M0410,C0070,Not happy that the item works but the build quality is bad. Please look into it.,Product_Quality,Medium
+M0235,C0050,It's bothering me that the return pickup was never scheduled. Kindly resolve.,Refund_Return,Medium
+M0605,C0220,I am done with Lulu! I just wanted to ask about your return policy. I'm escalating this everywhere!,General_Query,High
+M0516,C0052,I am ABSOLUTELY furious!! I cannot log into my account on the app. I will never shop here again!,App_Technical,High
+M0070,C0027,I am done with Lulu! my order still has not arrived. I will never shop here again!,Delivery,High
+M0560,C0157,"Hi team, is this product available in the Dubai store. Please let me know.",General_Query,Low
+M0449,C0043,I am done with Lulu! the speaker feels cheap and not worth the price. Fix this NOW or I'm leaving for good!,Product_Quality,High
+M0491,C0021,I'm disappointed that I cannot track my order in the app. Please sort this out soon.,App_Technical,Medium
+M0497,C0202,The app shows an error every time I open it. This needs attention.,App_Technical,Medium
+M0376,C0200,"Hello, the headphones feels cheap and not worth the price. Appreciate it.",Product_Quality,Low
+M0320,C0043,It's bothering me that you billed me after I cancelled. I'd like this fixed.,Billing,Medium
+M0150,C0012,It's bothering me that the screen was cracked when I opened it.,Damaged_Defective,Medium
+M0125,C0150,I'm disappointed that the screen was cracked when I opened it. Kindly resolve.,Damaged_Defective,Medium
+M0568,C0197,"Hello Lulu, I have a question about my loyalty points. Appreciate it.",General_Query,Low
+M0541,C0135,"Hello, do you deliver to my area. Appreciate it.",General_Query,Low
+M0186,C0167,"Good morning, I returned the product but no refund came. Looking forward to your reply.",Refund_Return,Low
+M0544,C0106,How do I add an address to my account. Looking forward to your reply.,General_Query,Low
+M0322,C0134,There is an extra charge on my bill I do not understand.,Billing,Medium
+M0621,C0080,This is outrageous!! how can I change my registered phone number. I'm escalating this everywhere!,General_Query,High
+M0580,C0117,I'm unhappy because do you deliver to my area. This needs attention.,General_Query,Medium
+M0506,C0052,The app shows an error every time I open it. Please look into it.,App_Technical,Medium
+M0142,C0118,I'm disappointed that the product was damaged in the box. Please look into it.,Damaged_Defective,Medium
+M0321,C0018,I'm unhappy because the invoice amount is wrong. Hoping for a quick resolution.,Billing,Medium
+M0020,C0031,"Hello, I have been waiting for my package for days. Thank you.",Delivery,Low
+M0173,C0011,I am done with Lulu! the screen was cracked when I opened it. I want this resolved immediately!!,Damaged_Defective,High
+M0520,C0028,This is outrageous!! I cannot track my order in the app. I will never shop here again!,App_Technical,High
+M0502,C0083,The app shows an error every time I open it. I'd like this fixed.,App_Technical,Medium
+M0026,C0162,"Hello, the delivery is late again. Appreciate it.",Delivery,Low
+M0417,C0075,This is not the quality I expected from Lulu. Hoping for a quick resolution.,Product_Quality,Medium
+M0494,C0082,I cannot track my order in the app. Please look into it.,App_Technical,Medium
+M0427,C0083,Completely unacceptable!! the product looks nothing like the description. I want this resolved immediately!!,Product_Quality,High
+M0328,C0195,Not happy that my coupon was not applied at checkout. Hoping for a quick resolution.,Billing,Medium
+M0246,C0170,This is the LAST straw. I returned the product but no refund came. I want this resolved immediately!!,Refund_Return,High
+M0350,C0121,I am ABSOLUTELY furious!! you billed me after I cancelled. I want this resolved immediately!!,Billing,High
+M0273,C0202,"Hi, the invoice amount is wrong.",Billing,Low
+M0155,C0058,I am ABSOLUTELY furious!! the screen was cracked when I opened it. I want this resolved immediately!!,Damaged_Defective,High
+M0127,C0071,My laptop stopped working on day one.,Damaged_Defective,Medium
+M0551,C0004,Can you tell me the store timings. Appreciate it.,General_Query,Low
+M0114,C0052,The package was crushed and the item dented. Thanks for your help.,Damaged_Defective,Low
+M0535,C0157,I have HAD enough — the payment page is not loading. I'm escalating this everywhere!,App_Technical,High
+M0174,C0177,Completely unacceptable!! the package was crushed and the item dented. I want this resolved immediately!!,Damaged_Defective,High
+M0058,C0085,The delivery is late again. This needs attention.,Delivery,Medium
+M0356,C0127,This is the LAST straw. you billed me after I cancelled. I'm escalating this everywhere!,Billing,High
+M0223,C0144,I'm unhappy because I am still waiting for the refund you promised. Hoping for a quick resolution.,Refund_Return,Medium
+M0281,C0218,The invoice amount is wrong. Please let me know.,Billing,Low
+M0018,C0040,"Hello, my order still has not arrived. Appreciate it.",Delivery,Low
+M0330,C0105,This is frustrating — you billed me after I cancelled. Please sort this out soon.,Billing,Medium
+M0256,C0012,Completely unacceptable!! the return pickup was never scheduled. Sort it out or refund me!!,Refund_Return,High
+M0337,C0109,I am done with Lulu! the amount deducted is more than the order total. This is the third time — enough!!,Billing,High
+M0603,C0147,I have HAD enough — do you deliver to my area. I want this resolved immediately!!,General_Query,High
+M0191,C0081,I want to return this item and get my money back. Thank you.,Refund_Return,Low
+M0353,C0099,I am ABSOLUTELY furious!! I see a payment I never authorized. I'm escalating this everywhere!,Billing,High
+M0552,C0194,"Good morning, how do I add an address to my account. Appreciate it.",General_Query,Low
+M0301,C0189,It's bothering me that there is an extra charge on my bill I do not understand. This needs attention.,Billing,Medium
+M0095,C0219,"Hello, the package was crushed and the item dented. Thank you.",Damaged_Defective,Low
+M0181,C0093,"Hi, I want to return this item and get my money back. Appreciate it.",Refund_Return,Low
+M0409,C0084,The item works but the build quality is bad. Please sort this out soon.,Product_Quality,Medium
+M0366,C0144,The product looks nothing like the description. Please let me know.,Product_Quality,Low
+M0363,C0141,"Hi, the product looks nothing like the description. Looking forward to your reply.",Product_Quality,Low
+M0345,C0042,Completely unacceptable!! there is an extra charge on my bill I do not understand. I'm escalating this everywhere!,Billing,High
+M0006,C0160,"Hello, I have been waiting for my package for days. Please let me know.",Delivery,Low
+M0046,C0060,I'm disappointed that my shipment is stuck and not moving.,Delivery,Medium
+M0408,C0135,I'm unhappy because the headphones feels cheap and not worth the price.,Product_Quality,Medium
+M0432,C0088,Completely unacceptable!! the quality of this product is poor. I want this resolved immediately!!,Product_Quality,High
+M0422,C0191,I am done with Lulu! the material is low quality and wore out fast. I'm escalating this everywhere!,Product_Quality,High
+M0017,C0060,"Hi there, the courier never showed up. Looking forward to your reply.",Delivery,Low
+M0049,C0037,Nobody delivered my order today as promised. Please sort this out soon.,Delivery,Medium
+M0609,C0029,I am done with Lulu! I have a question about my loyalty points. I want this resolved immediately!!,General_Query,High
+M0575,C0072,I just wanted to ask about your return policy. This needs attention.,General_Query,Medium
+M0004,C0120,"Hello Lulu, nobody delivered my order today as promised.",Delivery,Low
+M0361,C0023,"Hi team, the TV quality has gone down compared to before. Appreciate it.",Product_Quality,Low
+M0333,C0097,I have HAD enough — I was charged twice for the same order. Fix this NOW or I'm leaving for good!,Billing,High
+M0489,C0125,I'm a bit annoyed that I cannot track my order in the app. Kindly resolve.,App_Technical,Medium
+M0412,C0145,It's bothering me that the product looks nothing like the description. Please look into it.,Product_Quality,Medium
+M0484,C0220,I'm disappointed that I cannot log into my account on the app.,App_Technical,Medium
+M0334,C0206,This is the LAST straw. the invoice amount is wrong. I'm escalating this everywhere!,Billing,High
+M0226,C0015,I'm a bit annoyed that the return pickup was never scheduled.,Refund_Return,Medium
+M0027,C0020,"Hi, the delivery date keeps getting pushed. Kind regards.",Delivery,Low
+M0479,C0141,"Hello Lulu, the app shows an error every time I open it. Thank you.",App_Technical,Low
+M0264,C0192,This is outrageous!! how do I send this back for a refund. Fix this NOW or I'm leaving for good!,Refund_Return,High
+M0051,C0083,I'm unhappy because the delivery date keeps getting pushed. Please look into it.,Delivery,Medium
+M0230,C0131,This is frustrating — the return pickup was never scheduled. Kindly resolve.,Refund_Return,Medium
+M0038,C0015,This is frustrating — my shipment is stuck and not moving. Please sort this out soon.,Delivery,Medium
+M0158,C0066,Completely unacceptable!! my TV stopped working on day one. I'm escalating this everywhere!,Damaged_Defective,High
+M0238,C0085,This is frustrating — I returned the product but no refund came. I'd like this fixed.,Refund_Return,Medium
+M0604,C0153,Completely unacceptable!! I have a question about my loyalty points. I want this resolved immediately!!,General_Query,High
+M0176,C0029,This is outrageous!! the item arrived broken. Fix this NOW or I'm leaving for good!,Damaged_Defective,High
+M0528,C0089,This is the LAST straw. I cannot track my order in the app. Fix this NOW or I'm leaving for good!,App_Technical,High
+M0542,C0041,"Good morning, can you tell me the store timings. Appreciate it.",General_Query,Low
+M0195,C0212,"Hi there, I returned the product but no refund came.",Refund_Return,Low
+M0530,C0071,This is the LAST straw. the website freezes when I add items to cart. This is the third time — enough!!,App_Technical,High
+M0383,C0098,This is not the quality I expected from Lulu. Looking forward to your reply.,Product_Quality,Low
+M0608,C0056,Completely unacceptable!! how do I add an address to my account. I will never shop here again!,General_Query,High
+M0536,C0059,This is outrageous!! the search on the app is not working. I'm escalating this everywhere!,App_Technical,High
+M0068,C0042,This is outrageous!! nobody delivered my order today as promised. I want this resolved immediately!!,Delivery,High
+M0354,C0134,I have HAD enough — my coupon was not applied at checkout. I'm escalating this everywhere!,Billing,High
+M0169,C0030,I am ABSOLUTELY furious!! the package was crushed and the item dented. I will never shop here again!,Damaged_Defective,High
+M0466,C0034,The app keeps crashing when I try to checkout. Looking forward to your reply.,App_Technical,Low
+M0163,C0180,I am done with Lulu! the package was crushed and the item dented. Sort it out or refund me!!,Damaged_Defective,High
+M0310,C0132,It's bothering me that I was charged twice for the same order.,Billing,Medium
+M0194,C0124,"Hello Lulu, I am still waiting for the refund you promised. Thanks for your help.",Refund_Return,Low
+M0384,C0048,"Hi, the product looks nothing like the description. Please let me know.",Product_Quality,Low
+M0153,C0092,I am done with Lulu! the blender is defective and will not switch on. Sort it out or refund me!!,Damaged_Defective,High
+M0362,C0052,"Good morning, the material is low quality and wore out fast. Please let me know.",Product_Quality,Low
+M0617,C0134,Completely unacceptable!! is this product available in the Dubai store. I'm escalating this everywhere!,General_Query,High
+M0227,C0038,I'm disappointed that my refund has not been processed yet. I'd like this fixed.,Refund_Return,Medium
+M0368,C0097,"Hello Lulu, the material is low quality and wore out fast. Kind regards.",Product_Quality,Low
+M0510,C0055,Not happy that the payment page is not loading. Please sort this out soon.,App_Technical,Medium
+M0104,C0122,"Hi team, my speaker stopped working on day one. Thank you.",Damaged_Defective,Low
+M0435,C0069,This is the LAST straw. the quality of this product is poor. Fix this NOW or I'm leaving for good!,Product_Quality,High
+M0075,C0112,This is the LAST straw. the delivery date keeps getting pushed. This is the third time — enough!!,Delivery,High
+M0470,C0021,"Hello, the app keeps crashing when I try to checkout. Looking forward to your reply.",App_Technical,Low
+M0607,C0061,I am ABSOLUTELY furious!! is this product available in the Dubai store. Sort it out or refund me!!,General_Query,High
+M0120,C0069,"Hello, there were parts missing and the unit is faulty. Appreciate it.",Damaged_Defective,Low
+M0431,C0039,This is the LAST straw. the TV quality has gone down compared to before. Fix this NOW or I'm leaving for good!,Product_Quality,High
+M0578,C0013,It's bothering me that do you deliver to my area. This needs attention.,General_Query,Medium
+M0592,C0055,I'm a bit annoyed that is this product available in the Dubai store. Hoping for a quick resolution.,General_Query,Medium
+M0208,C0043,"Hello Lulu, I returned the product but no refund came.",Refund_Return,Low
+M0371,C0091,The headphones quality has gone down compared to before. Looking forward to your reply.,Product_Quality,Low
+M0391,C0013,Not happy that the kettle quality has gone down compared to before. Hoping for a quick resolution.,Product_Quality,Medium
+M0378,C0081,"Hello Lulu, the quality of this product is poor. Thanks for your help.",Product_Quality,Low
+M0450,C0031,I am done with Lulu! the item works but the build quality is bad. This is the third time — enough!!,Product_Quality,High
+M0009,C0163,The delivery is late again. Thank you.,Delivery,Low
+M0420,C0062,Not happy that the item works but the build quality is bad. I'd like this fixed.,Product_Quality,Medium
+M0037,C0082,It's bothering me that my shipment is stuck and not moving.,Delivery,Medium
+M0140,C0098,Not happy that the item arrived broken. I'd like this fixed.,Damaged_Defective,Medium
+M0254,C0007,This is outrageous!! the return pickup was never scheduled. I will never shop here again!,Refund_Return,High
+M0304,C0012,I'm disappointed that you billed me after I cancelled. Please look into it.,Billing,Medium
+M0434,C0085,This is outrageous!! this is not the quality I expected from Lulu. Fix this NOW or I'm leaving for good!,Product_Quality,High
+M0369,C0118,"Good morning, the product looks nothing like the description. Appreciate it.",Product_Quality,Low
+M0060,C0115,I'm unhappy because my order still has not arrived. Kindly resolve.,Delivery,Medium
+M0112,C0041,"Hello Lulu, there were parts missing and the unit is faulty. Please let me know.",Damaged_Defective,Low
+M0538,C0085,I am done with Lulu! the payment page is not loading. This is the third time — enough!!,App_Technical,High
+M0582,C0216,I'm disappointed that how do I add an address to my account. Please look into it.,General_Query,Medium
+M0518,C0003,Completely unacceptable!! the app keeps crashing when I try to checkout. I'm escalating this everywhere!,App_Technical,High
+M0263,C0199,This is outrageous!! please refund me for the order I sent back. I'm escalating this everywhere!,Refund_Return,High
+M0524,C0051,I am ABSOLUTELY furious!! the app shows an error every time I open it. I want this resolved immediately!!,App_Technical,High
+M0298,C0102,"Hi team, the invoice amount is wrong. Appreciate it.",Billing,Low
+M0151,C0134,Completely unacceptable!! my laptop stopped working on day one. I'm escalating this everywhere!,Damaged_Defective,High
+M0267,C0204,I am ABSOLUTELY furious!! I want to return this item and get my money back. I want this resolved immediately!!,Refund_Return,High
+M0543,C0048,"Hi, how do I add an address to my account. Kind regards.",General_Query,Low
+M0360,C0044,This is the LAST straw. the invoice amount is wrong. This is the third time — enough!!,Billing,High
+M0555,C0081,"Hi, is this product available in the Dubai store. Kind regards.",General_Query,Low
+M0039,C0060,Not happy that nobody delivered my order today as promised. This needs attention.,Delivery,Medium
+M0481,C0197,It's bothering me that the website freezes when I add items to cart.,App_Technical,Medium
+M0308,C0133,It's bothering me that I was charged twice for the same order. Hoping for a quick resolution.,Billing,Medium
+M0199,C0118,"Hi there, the return pickup was never scheduled.",Refund_Return,Low
+M0352,C0021,This is the LAST straw. the amount deducted is more than the order total. I will never shop here again!,Billing,High
+M0394,C0006,It's bothering me that the material is low quality and wore out fast. This needs attention.,Product_Quality,Medium
+M0147,C0188,The screen was cracked when I opened it. Please look into it.,Damaged_Defective,Medium
+M0583,C0071,I'm a bit annoyed that I have a question about my loyalty points.,General_Query,Medium
+M0557,C0011,Do you deliver to my area. Kind regards.,General_Query,Low
+M0148,C0161,My TV stopped working on day one. This needs attention.,Damaged_Defective,Medium
+M0622,C0164,I have HAD enough — I just wanted to ask about your return policy. I will never shop here again!,General_Query,High
+M0349,C0002,Completely unacceptable!! there is an extra charge on my bill I do not understand. I'm escalating this everywhere!,Billing,High
+M0326,C0095,I'm a bit annoyed that I see a payment I never authorized. Kindly resolve.,Billing,Medium
+M0629,C0070,I have HAD enough — how do I add an address to my account. I will never shop here again!,General_Query,High
+M0124,C0056,Not happy that the laptop is defective and will not switch on. Please look into it.,Damaged_Defective,Medium
+M0529,C0161,I am done with Lulu! I cannot track my order in the app. I will never shop here again!,App_Technical,High
+M0097,C0043,"Hello, the package was crushed and the item dented. Thanks for your help.",Damaged_Defective,Low
+M0144,C0054,The blender is defective and will not switch on. Kindly resolve.,Damaged_Defective,Medium
+M0240,C0203,I'm unhappy because I want to return this item and get my money back. This needs attention.,Refund_Return,Medium
+M0395,C0051,I'm a bit annoyed that this is not the quality I expected from Lulu. Hoping for a quick resolution.,Product_Quality,Medium
+M0537,C0040,This is the LAST straw. the payment page is not loading. This is the third time — enough!!,App_Technical,High
+M0098,C0175,The product was damaged in the box.,Damaged_Defective,Low
+M0372,C0074,"Hello Lulu, the product looks nothing like the description. Thanks for your help.",Product_Quality,Low
+M0325,C0155,I'm a bit annoyed that I see a payment I never authorized.,Billing,Medium
+M0280,C0192,"Hello Lulu, my coupon was not applied at checkout. Kind regards.",Billing,Low
+M0294,C0130,The invoice amount is wrong.,Billing,Low
+M0255,C0206,I am done with Lulu! the return pickup was never scheduled. This is the third time — enough!!,Refund_Return,High
+M0401,C0069,This is frustrating — the material is low quality and wore out fast. Hoping for a quick resolution.,Product_Quality,Medium
+M0123,C0182,I'm disappointed that the product was damaged in the box. This needs attention.,Damaged_Defective,Medium
+M0184,C0188,"Hi team, I returned the product but no refund came. Thank you.",Refund_Return,Low
+M0203,C0168,"Hi there, the return pickup was never scheduled. Please let me know.",Refund_Return,Low
+M0324,C0137,Not happy that there is an extra charge on my bill I do not understand. This needs attention.,Billing,Medium
+M0247,C0076,I am done with Lulu! I returned the product but no refund came. I will never shop here again!,Refund_Return,High
+M0416,C0177,This is frustrating — the item works but the build quality is bad. Hoping for a quick resolution.,Product_Quality,Medium
+M0465,C0029,"Hello Lulu, I cannot log into my account on the app. Please let me know.",App_Technical,Low
+M0452,C0064,The payment page is not loading. Kind regards.,App_Technical,Low
+M0545,C0164,"Hi team, is this product available in the Dubai store. Thank you.",General_Query,Low
+M0464,C0142,"Good morning, the search on the app is not working. Appreciate it.",App_Technical,Low
+M0554,C0110,"Hi there, is this product available in the Dubai store. Please let me know.",General_Query,Low
+M0433,C0096,I am done with Lulu! this is not the quality I expected from Lulu. Sort it out or refund me!!,Product_Quality,High
+M0126,C0215,I'm a bit annoyed that the item arrived broken. This needs attention.,Damaged_Defective,Medium
+M0403,C0187,The watch quality has gone down compared to before.,Product_Quality,Medium
+M0601,C0072,I am ABSOLUTELY furious!! how do I add an address to my account. I want this resolved immediately!!,General_Query,High
+M0619,C0086,I have HAD enough — do you deliver to my area. Fix this NOW or I'm leaving for good!,General_Query,High
+M0224,C0173,It's bothering me that how do I send this back for a refund. This needs attention.,Refund_Return,Medium
+M0343,C0189,This is outrageous!! you billed me after I cancelled. Sort it out or refund me!!,Billing,High
+M0054,C0097,I'm disappointed that nobody delivered my order today as promised. I'd like this fixed.,Delivery,Medium
+M0220,C0056,I'm disappointed that please refund me for the order I sent back. Kindly resolve.,Refund_Return,Medium
+M0130,C0185,It's bothering me that there were parts missing and the unit is faulty. Please look into it.,Damaged_Defective,Medium
+M0570,C0079,"Hello, how can I change my registered phone number.",General_Query,Low
+M0438,C0032,Completely unacceptable!! the material is low quality and wore out fast. Fix this NOW or I'm leaving for good!,Product_Quality,High
+M0539,C0053,I have HAD enough — the payment page is not loading. I want this resolved immediately!!,App_Technical,High
+M0573,C0127,Not happy that how can I change my registered phone number. This needs attention.,General_Query,Medium
+M0440,C0189,Completely unacceptable!! the item works but the build quality is bad. I want this resolved immediately!!,Product_Quality,High
+M0101,C0108,"Hi, my watch stopped working on day one. Looking forward to your reply.",Damaged_Defective,Low
+M0448,C0029,This is outrageous!! the item works but the build quality is bad. I want this resolved immediately!!,Product_Quality,High
+M0387,C0034,"Hi team, the material is low quality and wore out fast.",Product_Quality,Low
+M0610,C0024,I am ABSOLUTELY furious!! how do I add an address to my account. I want this resolved immediately!!,General_Query,High
+M0295,C0055,"Hi, the invoice amount is wrong. Kind regards.",Billing,Low
+M0268,C0148,I have HAD enough — I returned the product but no refund came. Fix this NOW or I'm leaving for good!,Refund_Return,High
+M0052,C0125,This is frustrating — the delivery is late again. Kindly resolve.,Delivery,Medium
+M0442,C0171,I am ABSOLUTELY furious!! the item works but the build quality is bad. This is the third time — enough!!,Product_Quality,High
+M0469,C0019,"Hi team, the app shows an error every time I open it. Thanks for your help.",App_Technical,Low
+M0113,C0218,"Hi team, the item arrived broken.",Damaged_Defective,Low
+M0180,C0119,I am done with Lulu! the screen was cracked when I opened it. I will never shop here again!,Damaged_Defective,High
+M0468,C0180,"Hi there, the app shows an error every time I open it. Thank you.",App_Technical,Low
+M0513,C0179,This is the LAST straw. I cannot track my order in the app. I'm escalating this everywhere!,App_Technical,High
+M0501,C0189,Not happy that the payment page is not loading. Kindly resolve.,App_Technical,Medium
+M0374,C0047,The watch feels cheap and not worth the price. Please let me know.,Product_Quality,Low
+M0315,C0038,This is frustrating — there is an extra charge on my bill I do not understand. Kindly resolve.,Billing,Medium
+M0152,C0112,I have HAD enough — the package was crushed and the item dented. I will never shop here again!,Damaged_Defective,High
+M0172,C0181,This is the LAST straw. the package was crushed and the item dented. I will never shop here again!,Damaged_Defective,High
+M0234,C0194,This is frustrating — please refund me for the order I sent back. Kindly resolve.,Refund_Return,Medium
+M0307,C0214,I'm unhappy because my coupon was not applied at checkout. Please look into it.,Billing,Medium
+M0598,C0191,It's bothering me that is this product available in the Dubai store. Hoping for a quick resolution.,General_Query,Medium
+M0165,C0170,I am done with Lulu! the TV is defective and will not switch on. Sort it out or refund me!!,Damaged_Defective,High
+M0318,C0121,You billed me after I cancelled. Please sort this out soon.,Billing,Medium
+M0137,C0108,The item arrived broken. Hoping for a quick resolution.,Damaged_Defective,Medium
+M0411,C0046,Not happy that the product looks nothing like the description. I'd like this fixed.,Product_Quality,Medium
+M0559,C0113,"Hello Lulu, is this product available in the Dubai store.",General_Query,Low
+M0198,C0058,"Hello, I returned the product but no refund came.",Refund_Return,Low
+M0359,C0133,I have HAD enough — I was charged twice for the same order. This is the third time — enough!!,Billing,High
+M0259,C0002,I have HAD enough — please refund me for the order I sent back. This is the third time — enough!!,Refund_Return,High
+M0233,C0114,I'm disappointed that I am still waiting for the refund you promised. I'd like this fixed.,Refund_Return,Medium
+M0515,C0066,I have HAD enough — I cannot track my order in the app. Fix this NOW or I'm leaving for good!,App_Technical,High
+M0116,C0163,"Hi team, the headphones is defective and will not switch on. Please let me know.",Damaged_Defective,Low
+M0121,C0175,It's bothering me that the speaker is defective and will not switch on. Please sort this out soon.,Damaged_Defective,Medium
+M0483,C0133,I'm unhappy because the app keeps crashing when I try to checkout. Please sort this out soon.,App_Technical,Medium
+M0283,C0014,"Hi, there is an extra charge on my bill I do not understand. Appreciate it.",Billing,Low
+M0377,C0158,"Hi, the quality of this product is poor. Thanks for your help.",Product_Quality,Low
+M0385,C0088,"Hi team, the product looks nothing like the description. Appreciate it.",Product_Quality,Low
+M0225,C0004,It's bothering me that I am still waiting for the refund you promised. Hoping for a quick resolution.,Refund_Return,Medium
+M0597,C0161,Not happy that is this product available in the Dubai store. Please sort this out soon.,General_Query,Medium
+M0508,C0214,I'm a bit annoyed that I cannot track my order in the app. I'd like this fixed.,App_Technical,Medium
+M0473,C0056,"Hi there, the app keeps crashing when I try to checkout.",App_Technical,Low
+M0348,C0014,This is outrageous!! the invoice amount is wrong. I'm escalating this everywhere!,Billing,High
+M0128,C0167,I'm disappointed that the kettle is defective and will not switch on. Hoping for a quick resolution.,Damaged_Defective,Medium
+M0620,C0134,I am ABSOLUTELY furious!! is this product available in the Dubai store. Fix this NOW or I'm leaving for good!,General_Query,High
+M0446,C0164,I am done with Lulu! the quality of this product is poor. Sort it out or refund me!!,Product_Quality,High
+M0286,C0159,"Hello, the amount deducted is more than the order total.",Billing,Low
+M0581,C0077,It's bothering me that do you deliver to my area.,General_Query,Medium
+M0044,C0145,I'm a bit annoyed that my shipment is stuck and not moving. Kindly resolve.,Delivery,Medium
+M0108,C0176,"Hi team, my laptop stopped working on day one. Please let me know.",Damaged_Defective,Low
+M0531,C0066,I am ABSOLUTELY furious!! the search on the app is not working. I'm escalating this everywhere!,App_Technical,High
+M0496,C0193,I'm unhappy because the app keeps crashing when I try to checkout. Kindly resolve.,App_Technical,Medium
+M0134,C0216,I'm unhappy because the watch is defective and will not switch on. Hoping for a quick resolution.,Damaged_Defective,Medium
+M0441,C0189,This is the LAST straw. the quality of this product is poor. Sort it out or refund me!!,Product_Quality,High
+M0062,C0066,I am ABSOLUTELY furious!! the delivery date keeps getting pushed. I will never shop here again!,Delivery,High
+M0045,C0127,It's bothering me that the delivery is late again. I'd like this fixed.,Delivery,Medium
+M0170,C0051,I am ABSOLUTELY furious!! there were parts missing and the unit is faulty. Sort it out or refund me!!,Damaged_Defective,High
+M0066,C0097,I am done with Lulu! the courier never showed up. This is the third time — enough!!,Delivery,High
+M0284,C0172,"Hello Lulu, you billed me after I cancelled.",Billing,Low
+M0086,C0217,I am ABSOLUTELY furious!! I have been waiting for my package for days. Sort it out or refund me!!,Delivery,High
+M0243,C0018,This is the LAST straw. my refund has not been processed yet. This is the third time — enough!!,Refund_Return,High
+M0187,C0217,Please refund me for the order I sent back. Thanks for your help.,Refund_Return,Low
+M0327,C0206,I'm a bit annoyed that you billed me after I cancelled.,Billing,Medium
+M0160,C0028,I am ABSOLUTELY furious!! the package was crushed and the item dented. I'm escalating this everywhere!,Damaged_Defective,High
+M0013,C0180,"Hi, my order still has not arrived. Appreciate it.",Delivery,Low
+M0036,C0089,I'm unhappy because the courier never showed up. Hoping for a quick resolution.,Delivery,Medium
+M0029,C0044,My order still has not arrived. Thanks for your help.,Delivery,Low
+M0171,C0213,This is the LAST straw. the package was crushed and the item dented. I will never shop here again!,Damaged_Defective,High
+M0143,C0086,The product was damaged in the box.,Damaged_Defective,Medium
+M0237,C0143,It's bothering me that I am still waiting for the refund you promised. Please sort this out soon.,Refund_Return,Medium
+M0533,C0101,This is the LAST straw. I cannot log into my account on the app. I will never shop here again!,App_Technical,High
+M0525,C0183,Completely unacceptable!! the app shows an error every time I open it. This is the third time — enough!!,App_Technical,High
+M0591,C0107,I'm a bit annoyed that how can I change my registered phone number. Kindly resolve.,General_Query,Medium
+M0222,C0139,I'm unhappy because my refund has not been processed yet.,Refund_Return,Medium
+M0571,C0034,I'm unhappy because how do I add an address to my account.,General_Query,Medium
+M0096,C0174,"Hello Lulu, the TV is defective and will not switch on. Kind regards.",Damaged_Defective,Low
+M0241,C0019,I have HAD enough — the return pickup was never scheduled. I will never shop here again!,Refund_Return,High
+M0461,C0164,"Hi team, the website freezes when I add items to cart.",App_Technical,Low
+M0547,C0060,"Hello Lulu, I just wanted to ask about your return policy. Kind regards.",General_Query,Low
+M0207,C0205,"Hello, I am still waiting for the refund you promised. Thanks for your help.",Refund_Return,Low
+M0393,C0093,I'm unhappy because this is not the quality I expected from Lulu. Please sort this out soon.,Product_Quality,Medium
+M0398,C0038,I'm a bit annoyed that this is not the quality I expected from Lulu. Please look into it.,Product_Quality,Medium
+M0526,C0136,I am ABSOLUTELY furious!! the app keeps crashing when I try to checkout. I want this resolved immediately!!,App_Technical,High
+M0218,C0106,I'm disappointed that how do I send this back for a refund.,Refund_Return,Medium
+M0005,C0003,"Hi team, nobody delivered my order today as promised. Please let me know.",Delivery,Low
+M0558,C0143,"Hello Lulu, can you tell me the store timings. Kind regards.",General_Query,Low
+M0099,C0082,The screen was cracked when I opened it. Looking forward to your reply.,Damaged_Defective,Low
+M0407,C0080,This is frustrating — the product looks nothing like the description. Please sort this out soon.,Product_Quality,Medium
+M0503,C0094,I cannot track my order in the app. Please sort this out soon.,App_Technical,Medium
+M0048,C0217,This is frustrating — the delivery is late again. Hoping for a quick resolution.,Delivery,Medium
+M0033,C0023,Not happy that I have been waiting for my package for days. Please look into it.,Delivery,Medium
+M0201,C0106,"Good morning, I want to return this item and get my money back.",Refund_Return,Low
+M0135,C0186,I'm disappointed that the blender is defective and will not switch on. Please sort this out soon.,Damaged_Defective,Medium
+M0028,C0033,"Hi, my order still has not arrived. Appreciate it.",Delivery,Low
+M0549,C0183,"Good morning, how can I change my registered phone number. Appreciate it.",General_Query,Low
+M0231,C0098,I'm unhappy because please refund me for the order I sent back.,Refund_Return,Medium
+M0490,C0153,I'm unhappy because the search on the app is not working. Kindly resolve.,App_Technical,Medium
+M0379,C0131,"Hello Lulu, this is not the quality I expected from Lulu. Please let me know.",Product_Quality,Low
+M0289,C0057,The amount deducted is more than the order total.,Billing,Low
+M0419,C0100,This is not the quality I expected from Lulu. I'd like this fixed.,Product_Quality,Medium
+M0392,C0066,This is not the quality I expected from Lulu.,Product_Quality,Medium
+M0499,C0112,It's bothering me that the app keeps crashing when I try to checkout. Please look into it.,App_Technical,Medium
+M0139,C0159,Not happy that the item arrived broken. Please sort this out soon.,Damaged_Defective,Medium
+M0063,C0001,I am ABSOLUTELY furious!! nobody delivered my order today as promised. I'm escalating this everywhere!,Delivery,High
+M0472,C0136,The search on the app is not working. Looking forward to your reply.,App_Technical,Low
+M0129,C0207,This is frustrating — my headphones stopped working on day one. This needs attention.,Damaged_Defective,Medium
+M0613,C0135,Completely unacceptable!! how do I add an address to my account. I'm escalating this everywhere!,General_Query,High
+M0521,C0099,I am done with Lulu! the app keeps crashing when I try to checkout. I'm escalating this everywhere!,App_Technical,High
+M0065,C0127,This is the LAST straw. the courier never showed up. Sort it out or refund me!!,Delivery,High
+M0015,C0170,"Good morning, the delivery date keeps getting pushed.",Delivery,Low
+M0157,C0032,I have HAD enough — the package was crushed and the item dented. I want this resolved immediately!!,Damaged_Defective,High
+M0041,C0148,I'm unhappy because nobody delivered my order today as promised. Please sort this out soon.,Delivery,Medium
+M0493,C0003,I'm a bit annoyed that the search on the app is not working. I'd like this fixed.,App_Technical,Medium
+M0380,C0135,"Good morning, the material is low quality and wore out fast.",Product_Quality,Low
+M0188,C0146,"Hi, my refund has not been processed yet. Thank you.",Refund_Return,Low
+M0217,C0071,Not happy that how do I send this back for a refund. This needs attention.,Refund_Return,Medium
+M0053,C0158,I'm disappointed that the delivery date keeps getting pushed. I'd like this fixed.,Delivery,Medium
+M0338,C0071,I am done with Lulu! I see a payment I never authorized. This is the third time — enough!!,Billing,High
+M0296,C0121,"Hello Lulu, I was charged twice for the same order. Please let me know.",Billing,Low
+M0252,C0098,This is outrageous!! I want to return this item and get my money back. I will never shop here again!,Refund_Return,High
+M0462,C0220,The app shows an error every time I open it.,App_Technical,Low
+M0456,C0050,"Hi there, the search on the app is not working. Please let me know.",App_Technical,Low
+M0628,C0139,I am ABSOLUTELY furious!! I have a question about my loyalty points. I want this resolved immediately!!,General_Query,High
+M0270,C0104,Completely unacceptable!! how do I send this back for a refund. I'm escalating this everywhere!,Refund_Return,High
+M0202,C0155,I want to return this item and get my money back.,Refund_Return,Low
+M0162,C0032,Completely unacceptable!! the screen was cracked when I opened it. Sort it out or refund me!!,Damaged_Defective,High
+M0556,C0165,"Hello Lulu, is this product available in the Dubai store. Looking forward to your reply.",General_Query,Low
+M0402,C0093,I'm unhappy because the product looks nothing like the description. Please look into it.,Product_Quality,Medium
+M0477,C0027,"Hi team, the app shows an error every time I open it. Looking forward to your reply.",App_Technical,Low
+M0106,C0061,"Hi, the speaker is defective and will not switch on. Thank you.",Damaged_Defective,Low
+M0566,C0116,Can you tell me the store timings.,General_Query,Low
+M0390,C0218,"Hi, this is not the quality I expected from Lulu.",Product_Quality,Low
+M0002,C0147,"Good morning, the delivery is late again. Looking forward to your reply.",Delivery,Low
+M0587,C0148,Not happy that how do I add an address to my account. This needs attention.,General_Query,Medium
+M0562,C0150,"Hi, is this product available in the Dubai store.",General_Query,Low
+M0081,C0040,I have HAD enough — my shipment is stuck and not moving. Sort it out or refund me!!,Delivery,High
+M0206,C0195,"Hi there, I am still waiting for the refund you promised.",Refund_Return,Low
+M0035,C0005,This is frustrating — my shipment is stuck and not moving. Kindly resolve.,Delivery,Medium
+M0509,C0079,I'm disappointed that the search on the app is not working. Please sort this out soon.,App_Technical,Medium
+M0428,C0137,This is the LAST straw. the quality of this product is poor. Fix this NOW or I'm leaving for good!,Product_Quality,High
+M0455,C0143,"Hi, the search on the app is not working. Appreciate it.",App_Technical,Low
+M0367,C0132,"Hello Lulu, the quality of this product is poor.",Product_Quality,Low
+M0092,C0089,"Hello, my TV stopped working on day one.",Damaged_Defective,Low
+M0340,C0046,I have HAD enough — I see a payment I never authorized. Sort it out or refund me!!,Billing,High
+M0565,C0204,"Hi team, I just wanted to ask about your return policy. Please let me know.",General_Query,Low
+M0346,C0103,This is the LAST straw. I was charged twice for the same order. This is the third time — enough!!,Billing,High
+M0242,C0135,This is outrageous!! please refund me for the order I sent back. I will never shop here again!,Refund_Return,High
+M0014,C0035,I have been waiting for my package for days.,Delivery,Low
+M0316,C0104,This is frustrating — I was charged twice for the same order. Hoping for a quick resolution.,Billing,Medium
+M0388,C0206,"Hi there, the product looks nothing like the description. Appreciate it.",Product_Quality,Low
+M0274,C0113,The invoice amount is wrong. Kind regards.,Billing,Low
+M0167,C0036,I have HAD enough — the package was crushed and the item dented. I'm escalating this everywhere!,Damaged_Defective,High
+M0625,C0031,Completely unacceptable!! how can I change my registered phone number. I'm escalating this everywhere!,General_Query,High
+M0485,C0131,I'm a bit annoyed that the website freezes when I add items to cart. Kindly resolve.,App_Technical,Medium
+M0624,C0082,I am done with Lulu! how do I add an address to my account. This is the third time — enough!!,General_Query,High
+M0505,C0114,This is frustrating — the website freezes when I add items to cart. Hoping for a quick resolution.,App_Technical,Medium
+M0244,C0107,I have HAD enough — please refund me for the order I sent back. I want this resolved immediately!!,Refund_Return,High
+M0567,C0203,"Hi team, do you deliver to my area. Thanks for your help.",General_Query,Low
+M0563,C0007,"Hello Lulu, do you deliver to my area. Appreciate it.",General_Query,Low
+M0190,C0125,"Hi there, I want to return this item and get my money back.",Refund_Return,Low
+M0476,C0164,"Hi there, the app shows an error every time I open it.",App_Technical,Low
+M0511,C0193,I have HAD enough — I cannot log into my account on the app. This is the third time — enough!!,App_Technical,High
+M0059,C0163,I'm a bit annoyed that the delivery date keeps getting pushed. I'd like this fixed.,Delivery,Medium
+M0475,C0046,I cannot log into my account on the app. Looking forward to your reply.,App_Technical,Low
+M0561,C0166,"Hi there, I just wanted to ask about your return policy. Kind regards.",General_Query,Low
+M0253,C0066,I am ABSOLUTELY furious!! please refund me for the order I sent back. Sort it out or refund me!!,Refund_Return,High
+M0022,C0092,My order still has not arrived. Please let me know.,Delivery,Low
+M0314,C0152,The invoice amount is wrong.,Billing,Medium
+M0460,C0116,The website freezes when I add items to cart. Kind regards.,App_Technical,Low
+M0161,C0030,I am ABSOLUTELY furious!! the TV is defective and will not switch on. I'm escalating this everywhere!,Damaged_Defective,High
+M0277,C0204,"Hello, the invoice amount is wrong. Please let me know.",Billing,Low
+M0192,C0186,"Hi there, I want to return this item and get my money back. Looking forward to your reply.",Refund_Return,Low
+M0386,C0193,"Hello, the material is low quality and wore out fast. Thank you.",Product_Quality,Low
+M0414,C0094,It's bothering me that this is not the quality I expected from Lulu. I'd like this fixed.,Product_Quality,Medium
+M0492,C0107,I'm a bit annoyed that the search on the app is not working. Hoping for a quick resolution.,App_Technical,Medium
+M0344,C0192,This is outrageous!! there is an extra charge on my bill I do not understand. Fix this NOW or I'm leaving for good!,Billing,High
+M0309,C0155,I'm disappointed that my coupon was not applied at checkout. Hoping for a quick resolution.,Billing,Medium
+M0131,C0108,I'm unhappy because the item arrived broken. Please look into it.,Damaged_Defective,Medium
+M0100,C0220,"Hi, the phone is defective and will not switch on. Thank you.",Damaged_Defective,Low
+M0373,C0142,"Good morning, the quality of this product is poor. Looking forward to your reply.",Product_Quality,Low
+M0088,C0024,This is outrageous!! the courier never showed up. I will never shop here again!,Delivery,High
+M0459,C0120,"Hello Lulu, I cannot log into my account on the app. Appreciate it.",App_Technical,Low
+M0331,C0182,This is the LAST straw. the amount deducted is more than the order total. Fix this NOW or I'm leaving for good!,Billing,High
+M0215,C0033,This is frustrating — the return pickup was never scheduled. Kindly resolve.,Refund_Return,Medium
+M0467,C0009,I cannot log into my account on the app.,App_Technical,Low
+M0122,C0003,Not happy that the item arrived broken. I'd like this fixed.,Damaged_Defective,Medium
+M0615,C0174,I am ABSOLUTELY furious!! how can I change my registered phone number. This is the third time — enough!!,General_Query,High
+M0021,C0155,"Hello, my order still has not arrived. Looking forward to your reply.",Delivery,Low
+M0072,C0141,This is outrageous!! the delivery is late again. Fix this NOW or I'm leaving for good!,Delivery,High
+M0107,C0006,"Hi there, the item arrived broken. Thank you.",Damaged_Defective,Low
+M0271,C0002,"Hi team, my coupon was not applied at checkout.",Billing,Low
+M0436,C0140,Completely unacceptable!! the item works but the build quality is bad. Fix this NOW or I'm leaving for good!,Product_Quality,High
+M0103,C0138,"Hi, the item arrived broken. Kind regards.",Damaged_Defective,Low

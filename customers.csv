@@ -1,0 +1,221 @@
+customer_id,account_age_months,loyalty_tier,lifetime_spend,total_orders,total_complaints,total_refunds_received,refund_to_order_ratio,items_kept_after_refund,complaints_last_30_days,is_first_purchase,order_value,product_category,is_perishable_or_hygiene,resale_value,reverse_logistics_cost,prior_contacts_this_issue,prior_promise_logged,customer_care_notes,_archetype,clv_estimate
+C0001,1,Silver,13310,6,5,5,0.833,2,4,False,9164,Electronics,False,5956,101,0,False,,LIKELY_ABUSER,159720
+C0002,22,Bronze,135782,107,70,10,0.093,1,0,False,129,Frozen_Food,True,0,211,0,False,,GENUINE,74062
+C0003,24,Silver,9390,5,5,4,0.8,2,3,False,97,Dairy,True,0,89,0,False,,LIKELY_ABUSER,4695
+C0004,41,Silver,49430,74,72,2,0.027,0,1,False,4204,Home_Goods,False,1891,291,0,False,,GENUINE,14467
+C0005,27,Gold,83342,67,10,3,0.045,0,1,False,394,Fresh_Produce,True,0,108,0,False,,GENUINE,37040
+C0006,14,Silver,30248,19,11,11,0.579,4,4,False,445,Home_Goods,False,200,121,2,True,Customer was assured replacement on last contact.,LIKELY_ABUSER,25926
+C0007,26,Platinum,89235,22,4,2,0.091,0,0,False,289,Frozen_Food,True,0,284,0,False,,GENUINE,41185
+C0008,0,Silver,3488,4,3,1,0.25,1,2,False,23765,Electronics,False,15447,142,0,False,,SUSPICIOUS,41856
+C0009,46,Bronze,166294,111,89,10,0.09,0,1,False,49,Dairy,True,0,95,2,False,Explained item is non-returnable (perishable); customer acknowledged.,GENUINE,43381
+C0010,0,Gold,11014,4,2,1,0.25,1,2,False,1601,Home_Goods,False,720,212,0,False,,SUSPICIOUS,132168
+C0011,20,Bronze,28722,28,11,2,0.071,0,1,False,20712,Electronics,False,13462,204,2,False,Informed customer no refund applicable per policy; customer agreed.,GENUINE,17233
+C0012,5,Platinum,72827,26,9,9,0.346,1,1,False,609,Meat_Seafood,True,0,108,0,False,,SUSPICIOUS,174784
+C0013,60,Silver,47228,86,69,0,0.0,0,0,False,53678,Electronics,False,34890,78,2,True,"Prior agent committed to a refund, pending processing.",GENUINE,9445
+C0014,11,Gold,185420,60,23,1,0.017,0,0,False,58482,Home_Appliance,False,35089,234,0,False,,GENUINE,202276
+C0015,26,Bronze,138513,117,31,9,0.077,1,0,False,71067,Electronics,False,46193,147,0,False,,GENUINE,63929
+C0016,0,Gold,1348,1,3,0,0.0,0,3,True,2293,Fashion,False,917,253,0,False,,SUSPICIOUS,16176
+C0017,22,Bronze,7213,10,9,7,0.7,4,3,False,2088,Home_Goods,False,939,295,0,False,,LIKELY_ABUSER,3934
+C0018,20,Platinum,195050,48,7,1,0.021,0,0,False,66383,Electronics,False,43148,121,0,False,,GENUINE,117030
+C0019,55,Silver,130085,88,2,2,0.023,0,1,False,3481,Home_Goods,False,1566,284,0,False,,GENUINE,28382
+C0020,61,Bronze,25209,23,12,2,0.087,0,2,False,224,Dairy,True,0,118,2,False,Informed customer no refund applicable per policy; customer agreed.,GENUINE,4959
+C0021,43,Silver,141252,85,23,1,0.012,1,1,False,1307,Cosmetics,True,0,256,1,False,Informed customer no refund applicable per policy; customer agreed.,GENUINE,39419
+C0022,20,Gold,30373,14,14,10,0.714,5,4,False,627,Meat_Seafood,True,0,113,0,False,,LIKELY_ABUSER,18223
+C0023,3,Silver,5795,11,9,8,0.727,3,4,False,591,Frozen_Food,True,0,198,0,False,,LIKELY_ABUSER,23180
+C0024,30,Silver,80913,106,38,7,0.066,1,1,False,359,Fresh_Produce,True,0,263,0,False,,GENUINE,32365
+C0025,8,Gold,13478,9,9,7,0.778,5,3,False,153,Dairy,True,0,248,0,False,,LIKELY_ABUSER,20217
+C0026,46,Platinum,611232,111,67,10,0.09,1,2,False,2865,Fashion,False,1146,235,0,False,,GENUINE,159451
+C0027,72,Bronze,89031,77,14,5,0.065,0,1,False,221,Frozen_Food,True,0,123,0,False,,GENUINE,14838
+C0028,35,Bronze,50503,64,30,4,0.062,0,0,False,2409,Home_Goods,False,1084,56,0,False,,GENUINE,17315
+C0029,8,Bronze,73733,112,51,6,0.054,1,0,False,51499,Home_Appliance,False,30899,287,0,False,,GENUINE,110599
+C0030,18,Gold,9207,11,11,8,0.727,4,6,False,61192,Electronics,False,39774,247,0,False,,LIKELY_ABUSER,6138
+C0031,22,Gold,61599,23,8,6,0.261,1,1,False,793,Meat_Seafood,True,0,87,2,False,Explained item is non-returnable (perishable); customer acknowledged.,SUSPICIOUS,33599
+C0032,49,Silver,233299,112,42,10,0.089,0,1,False,410,Fashion,False,164,180,0,False,,GENUINE,57134
+C0033,14,Bronze,61472,114,42,11,0.096,0,0,False,256,Fresh_Produce,True,0,102,0,False,,GENUINE,52690
+C0034,33,Bronze,91267,74,19,5,0.068,0,0,False,871,Meat_Seafood,True,0,68,2,True,Customer was assured replacement on last contact.,GENUINE,33188
+C0035,54,Silver,117388,65,43,6,0.092,0,0,False,132,Frozen_Food,True,0,240,0,False,,GENUINE,26086
+C0036,2,Silver,1451,1,2,0,0.0,1,2,True,4100,Electronics,False,2665,149,0,False,,SUSPICIOUS,8706
+C0037,52,Silver,78545,96,64,9,0.094,1,0,False,4832,Home_Goods,False,2174,110,0,False,,GENUINE,18125
+C0038,67,Silver,153550,74,34,3,0.041,0,1,False,105,Dairy,True,0,157,0,False,,GENUINE,27501
+C0039,22,Silver,22657,16,11,10,0.625,5,5,False,72411,Electronics,False,47067,128,0,False,,LIKELY_ABUSER,12358
+C0040,0,Gold,4831,2,3,0,0.0,1,3,False,439,Frozen_Food,True,0,207,0,False,,SUSPICIOUS,57972
+C0041,3,Gold,32430,13,13,8,0.615,3,5,False,3454,Fashion,False,1381,129,0,False,,LIKELY_ABUSER,129720
+C0042,1,Silver,3257,3,1,0,0.0,0,1,False,4761,Home_Goods,False,2142,219,2,False,Informed customer no refund applicable per policy; customer agreed.,SUSPICIOUS,39084
+C0043,42,Gold,34784,27,13,2,0.074,0,0,False,289,Fresh_Produce,True,0,72,1,True,Customer was assured replacement on last contact.,GENUINE,9938
+C0044,22,Bronze,94932,96,9,8,0.083,1,0,False,3028,Fashion,False,1211,128,0,False,,GENUINE,51781
+C0045,6,Bronze,3832,8,4,3,0.375,0,1,False,2852,Toys_Books,False,1140,62,2,False,Clarified no prior promise was made; resolved on call.,SUSPICIOUS,7664
+C0046,27,Silver,23459,22,20,7,0.318,1,2,False,274,Toys_Books,False,109,289,1,True,Customer was assured replacement on last contact.,SUSPICIOUS,10426
+C0047,16,Bronze,27657,35,1,1,0.029,0,0,False,1462,Toys_Books,False,584,48,2,False,Clarified no prior promise was made; resolved on call.,GENUINE,20742
+C0048,15,Gold,322495,102,86,2,0.02,0,2,False,301,Frozen_Food,True,0,181,0,False,,GENUINE,257996
+C0049,24,Platinum,123752,24,23,0,0.0,0,2,False,1401,Cosmetics,True,0,161,2,False,Informed customer no refund applicable per policy; customer agreed.,GENUINE,61876
+C0050,69,Silver,116378,71,42,1,0.014,0,1,False,54,Fresh_Produce,True,0,290,0,False,,GENUINE,20239
+C0051,27,Silver,37350,27,16,11,0.407,1,1,False,5521,Fashion,False,2208,87,0,False,,SUSPICIOUS,16600
+C0052,68,Silver,45933,26,11,1,0.038,1,1,False,363,Meat_Seafood,True,0,220,2,False,Clarified no prior promise was made; resolved on call.,GENUINE,8105
+C0053,17,Bronze,70945,55,33,1,0.018,0,1,False,269,Fresh_Produce,True,0,181,0,False,,GENUINE,50078
+C0054,52,Bronze,58323,94,33,7,0.074,1,0,False,842,Meat_Seafood,True,0,153,0,False,,GENUINE,13459
+C0055,22,Bronze,10264,13,13,5,0.385,1,1,False,595,Frozen_Food,True,0,277,0,False,,SUSPICIOUS,5598
+C0056,25,Bronze,62289,78,41,7,0.09,0,2,False,5887,Fashion,False,2354,103,0,False,,GENUINE,29898
+C0057,19,Bronze,20527,29,25,12,0.414,0,2,False,1445,Home_Goods,False,650,40,0,False,,SUSPICIOUS,12964
+C0058,24,Gold,36693,21,14,9,0.429,1,3,False,1979,Home_Goods,False,890,282,0,False,,SUSPICIOUS,18346
+C0059,1,Platinum,9549,2,2,1,0.5,1,1,False,24392,Home_Appliance,False,14635,212,0,False,,SUSPICIOUS,114588
+C0060,69,Platinum,31893,19,14,0,0.0,0,0,False,387,Fashion,False,154,77,0,False,,GENUINE,5546
+C0061,1,Platinum,15873,3,2,1,0.333,1,1,False,1993,Home_Goods,False,896,122,0,False,,SUSPICIOUS,190476
+C0062,10,Gold,192879,94,12,1,0.011,0,0,False,235,Dairy,True,0,223,1,True,Customer was assured replacement on last contact.,GENUINE,231454
+C0063,9,Bronze,14996,20,12,1,0.05,0,1,False,295,Meat_Seafood,True,0,147,0,False,,GENUINE,19994
+C0064,6,Bronze,8372,6,5,4,0.667,5,4,False,285,Meat_Seafood,True,0,205,0,False,,LIKELY_ABUSER,16744
+C0065,65,Silver,117037,51,31,3,0.059,0,0,False,967,Toys_Books,False,386,290,0,False,,GENUINE,21606
+C0066,44,Silver,48488,40,19,4,0.1,1,0,False,53008,Electronics,False,34455,298,2,False,Informed customer no refund applicable per policy; customer agreed.,GENUINE,13224
+C0067,12,Bronze,116133,92,84,7,0.076,0,0,False,411,Frozen_Food,True,0,201,0,False,,GENUINE,116133
+C0068,22,Gold,6800,8,7,6,0.75,2,5,False,66715,Electronics,False,43364,63,2,False,Explained item is non-returnable (perishable); customer acknowledged.,LIKELY_ABUSER,3709
+C0069,18,Bronze,20952,15,13,11,0.733,4,4,False,5814,Fashion,False,2325,116,0,False,,LIKELY_ABUSER,13968
+C0070,65,Gold,44335,24,17,0,0.0,0,1,False,2807,Home_Appliance,False,1684,179,0,False,,GENUINE,8184
+C0071,39,Silver,82675,89,89,3,0.034,0,0,False,255,Fresh_Produce,True,0,285,1,False,Clarified no prior promise was made; resolved on call.,GENUINE,25438
+C0072,25,Bronze,21532,15,6,6,0.4,0,2,False,2988,Cosmetics,True,0,70,1,False,Informed customer no refund applicable per policy; customer agreed.,SUSPICIOUS,10335
+C0073,26,Silver,48648,28,25,12,0.429,1,2,False,3809,Fashion,False,1523,284,2,False,Explained item is non-returnable (perishable); customer acknowledged.,SUSPICIOUS,22452
+C0074,30,Silver,37591,17,13,5,0.294,1,2,False,8267,Electronics,False,5373,111,0,False,,SUSPICIOUS,15036
+C0075,64,Platinum,61597,26,12,2,0.077,0,0,False,729,Meat_Seafood,True,0,93,0,False,,GENUINE,11549
+C0076,19,Silver,19941,10,8,8,0.8,3,5,False,108,Toys_Books,False,43,263,1,True,Customer was assured replacement on last contact.,LIKELY_ABUSER,12594
+C0077,6,Bronze,5109,7,5,5,0.714,2,4,False,386,Frozen_Food,True,0,44,1,False,Clarified no prior promise was made; resolved on call.,LIKELY_ABUSER,10218
+C0078,20,Silver,178182,110,66,1,0.009,1,1,False,3171,Fashion,False,1268,285,3,True,Customer was assured replacement on last contact.,GENUINE,106909
+C0079,3,Bronze,6218,7,3,3,0.429,1,3,False,718,Fashion,False,287,61,0,False,,SUSPICIOUS,24872
+C0080,9,Bronze,14371,14,13,9,0.643,4,6,False,244,Dairy,True,0,69,0,False,,LIKELY_ABUSER,19161
+C0081,33,Gold,226258,70,46,3,0.043,0,1,False,26127,Home_Appliance,False,15676,64,0,False,,GENUINE,82275
+C0082,53,Silver,70618,34,7,2,0.059,1,0,False,146,Dairy,True,0,233,0,False,,GENUINE,15988
+C0083,2,Bronze,4288,3,3,1,0.333,1,2,False,52349,Home_Appliance,False,31409,227,0,False,,SUSPICIOUS,25728
+C0084,2,Silver,2304,2,2,0,0.0,1,2,False,1932,Home_Goods,False,869,238,0,False,,SUSPICIOUS,13824
+C0085,9,Gold,144422,92,32,9,0.098,0,0,False,2776,Cosmetics,True,0,131,1,False,Clarified no prior promise was made; resolved on call.,GENUINE,192562
+C0086,14,Silver,39675,33,15,2,0.061,0,0,False,2243,Fashion,False,897,136,0,False,,GENUINE,34007
+C0087,19,Gold,16631,6,5,5,0.833,3,4,False,1412,Cosmetics,True,0,150,0,False,,LIKELY_ABUSER,10503
+C0088,33,Silver,113645,111,20,6,0.054,0,1,False,1511,Toys_Books,False,604,213,2,True,Customer was assured replacement on last contact.,GENUINE,41325
+C0089,32,Bronze,36768,53,23,5,0.094,0,1,False,209,Fresh_Produce,True,0,151,3,True,Customer was assured replacement on last contact.,GENUINE,13788
+C0090,18,Bronze,12775,15,8,8,0.533,2,6,False,262,Dairy,True,0,189,0,False,,LIKELY_ABUSER,8516
+C0091,14,Gold,41001,13,8,7,0.538,2,5,False,1434,Toys_Books,False,573,219,0,False,,LIKELY_ABUSER,35143
+C0092,1,Silver,3621,4,3,1,0.25,1,2,False,161,Meat_Seafood,True,0,204,0,False,,SUSPICIOUS,43452
+C0093,50,Bronze,28068,59,10,4,0.068,0,0,False,170,Frozen_Food,True,0,79,0,False,,GENUINE,6736
+C0094,69,Bronze,98945,74,47,6,0.081,1,2,False,16133,Electronics,False,10486,57,0,False,,GENUINE,17207
+C0095,9,Bronze,4211,5,5,3,0.6,2,5,False,160,Fresh_Produce,True,0,114,0,False,,LIKELY_ABUSER,5614
+C0096,3,Platinum,54866,20,16,13,0.65,2,6,False,3157,Fashion,False,1262,289,0,False,,LIKELY_ABUSER,219464
+C0097,49,Gold,304523,106,32,1,0.009,0,0,False,3287,Fashion,False,1314,198,0,False,,GENUINE,74577
+C0098,1,Platinum,2782,1,2,0,0.0,1,2,True,3440,Home_Goods,False,1548,113,0,False,,SUSPICIOUS,33384
+C0099,25,Silver,133264,57,19,0,0.0,0,1,False,9479,Home_Appliance,False,5687,224,3,True,"Prior agent committed to a refund, pending processing.",GENUINE,63966
+C0100,48,Silver,139790,119,67,2,0.017,0,1,False,29871,Electronics,False,19416,287,2,False,Explained item is non-returnable (perishable); customer acknowledged.,GENUINE,34947
+C0101,0,Bronze,2112,3,3,1,0.333,0,1,False,480,Toys_Books,False,192,137,1,False,Clarified no prior promise was made; resolved on call.,SUSPICIOUS,25344
+C0102,58,Silver,62650,61,43,4,0.066,0,1,False,1633,Fashion,False,653,102,0,False,,GENUINE,12962
+C0103,7,Gold,46265,15,14,12,0.8,5,6,False,2708,Home_Goods,False,1218,291,0,False,,LIKELY_ABUSER,79311
+C0104,1,Gold,1605,1,1,0,0.0,1,1,True,318,Meat_Seafood,True,0,275,2,True,"Agent promised 20% coupon on previous call, not yet issued.",SUSPICIOUS,19260
+C0105,1,Platinum,10828,3,2,1,0.333,1,1,False,280,Frozen_Food,True,0,61,2,False,Explained item is non-returnable (perishable); customer acknowledged.,SUSPICIOUS,129936
+C0106,48,Gold,251414,116,108,2,0.017,0,1,False,707,Meat_Seafood,True,0,161,0,False,,GENUINE,62853
+C0107,0,Platinum,9851,2,3,0,0.0,1,3,False,236,Frozen_Food,True,0,52,0,False,,SUSPICIOUS,118212
+C0108,0,Gold,6495,4,2,1,0.25,0,2,False,253,Fresh_Produce,True,0,102,0,False,,SUSPICIOUS,77940
+C0109,16,Silver,119233,82,77,8,0.098,0,2,False,2837,Home_Goods,False,1276,141,0,False,,GENUINE,89424
+C0110,12,Silver,11315,12,11,10,0.833,4,3,False,238,Dairy,True,0,231,1,False,Informed customer no refund applicable per policy; customer agreed.,LIKELY_ABUSER,11315
+C0111,8,Silver,61142,30,17,12,0.4,1,3,False,223,Dairy,True,0,285,1,True,"Agent promised 20% coupon on previous call, not yet issued.",SUSPICIOUS,91713
+C0112,11,Gold,83046,55,35,5,0.091,1,2,False,228,Frozen_Food,True,0,264,3,True,"Prior agent committed to a refund, pending processing.",GENUINE,90595
+C0113,12,Bronze,24963,17,16,15,0.882,5,6,False,4244,Fashion,False,1697,135,0,False,,LIKELY_ABUSER,24963
+C0114,16,Bronze,103093,108,28,5,0.046,1,2,False,11926,Electronics,False,7751,125,2,False,Clarified no prior promise was made; resolved on call.,GENUINE,77319
+C0115,1,Gold,11233,3,3,1,0.333,1,2,False,1972,Cosmetics,True,0,245,3,True,Customer was assured replacement on last contact.,SUSPICIOUS,134796
+C0116,26,Silver,48112,27,27,8,0.296,0,2,False,498,Fashion,False,199,57,0,False,,SUSPICIOUS,22205
+C0117,2,Bronze,746,1,3,0,0.0,1,3,True,184,Dairy,True,0,177,0,False,,SUSPICIOUS,4476
+C0118,0,Silver,982,1,3,0,0.0,1,3,True,2156,Cosmetics,True,0,95,0,False,,SUSPICIOUS,11784
+C0119,68,Silver,88218,40,11,0,0.0,0,1,False,5984,Fashion,False,2393,250,0,False,,GENUINE,15567
+C0120,50,Platinum,484751,105,21,1,0.01,0,1,False,734,Meat_Seafood,True,0,172,1,True,"Agent promised 20% coupon on previous call, not yet issued.",GENUINE,116340
+C0121,1,Bronze,4083,3,3,1,0.333,1,2,False,113,Dairy,True,0,299,0,False,,SUSPICIOUS,48996
+C0122,58,Silver,74687,120,89,7,0.058,0,1,False,4176,Fashion,False,1670,129,0,False,,GENUINE,15452
+C0123,8,Gold,69129,30,16,13,0.433,1,1,False,619,Cosmetics,True,0,123,0,False,,SUSPICIOUS,103693
+C0124,72,Bronze,73828,51,44,4,0.078,0,0,False,506,Cosmetics,True,0,118,0,False,,GENUINE,12304
+C0125,27,Silver,167725,90,87,8,0.089,0,0,False,1079,Toys_Books,False,431,280,1,True,"Agent promised 20% coupon on previous call, not yet issued.",GENUINE,74544
+C0126,21,Bronze,16401,12,12,9,0.75,5,3,False,1554,Home_Goods,False,699,288,0,False,,LIKELY_ABUSER,9372
+C0127,57,Gold,105833,53,30,2,0.038,0,0,False,1462,Fashion,False,584,197,2,False,Clarified no prior promise was made; resolved on call.,GENUINE,22280
+C0128,12,Platinum,37765,16,14,9,0.562,4,3,False,102,Dairy,True,0,104,2,True,"Prior agent committed to a refund, pending processing.",LIKELY_ABUSER,37765
+C0129,0,Gold,9118,3,2,1,0.333,1,2,False,5977,Fashion,False,2390,161,0,False,,SUSPICIOUS,109416
+C0130,17,Silver,75241,65,40,3,0.046,0,0,False,126,Fresh_Produce,True,0,195,0,False,,GENUINE,53111
+C0131,42,Silver,180468,83,17,0,0.0,0,1,False,69455,Electronics,False,45145,135,0,False,,GENUINE,51562
+C0132,7,Silver,20170,15,15,11,0.733,2,6,False,1506,Home_Goods,False,677,297,0,False,,LIKELY_ABUSER,34577
+C0133,18,Bronze,78387,65,48,2,0.031,0,2,False,393,Frozen_Food,True,0,144,1,True,"Agent promised 20% coupon on previous call, not yet issued.",GENUINE,52258
+C0134,19,Gold,70882,20,11,6,0.3,1,2,False,17137,Electronics,False,11139,297,0,False,,SUSPICIOUS,44767
+C0135,49,Bronze,68719,79,45,7,0.089,1,2,False,159,Fresh_Produce,True,0,215,0,False,,GENUINE,16829
+C0136,26,Silver,65429,28,19,11,0.393,1,3,False,1775,Toys_Books,False,710,227,0,False,,SUSPICIOUS,30198
+C0137,21,Bronze,8463,16,10,9,0.562,3,3,False,2088,Fashion,False,835,79,0,False,,LIKELY_ABUSER,4836
+C0138,18,Silver,25464,29,27,11,0.379,1,2,False,89836,Electronics,False,58393,164,0,False,,SUSPICIOUS,16976
+C0139,64,Platinum,292497,83,81,3,0.036,0,1,False,225,Frozen_Food,True,0,117,0,False,,GENUINE,54843
+C0140,42,Platinum,301796,105,63,2,0.019,1,1,False,970,Cosmetics,True,0,189,0,False,,GENUINE,86227
+C0141,56,Gold,191934,119,9,4,0.034,0,1,False,123,Dairy,True,0,155,2,False,Explained item is non-returnable (perishable); customer acknowledged.,GENUINE,41128
+C0142,40,Bronze,102259,86,84,6,0.07,0,0,False,206,Frozen_Food,True,0,214,0,False,,GENUINE,30677
+C0143,12,Silver,52916,27,22,1,0.037,1,0,False,386,Fresh_Produce,True,0,294,2,False,Informed customer no refund applicable per policy; customer agreed.,GENUINE,52916
+C0144,42,Silver,88610,56,43,2,0.036,0,0,False,3732,Home_Goods,False,1679,261,1,True,"Prior agent committed to a refund, pending processing.",GENUINE,25317
+C0145,28,Gold,67636,19,7,2,0.105,1,1,False,2648,Cosmetics,True,0,42,0,False,,GENUINE,28986
+C0146,48,Bronze,43942,51,34,2,0.039,1,0,False,500,Frozen_Food,True,0,125,0,False,,GENUINE,10985
+C0147,29,Silver,13071,16,7,1,0.062,0,2,False,49965,Home_Appliance,False,29979,173,3,True,"Agent promised 20% coupon on previous call, not yet issued.",GENUINE,5408
+C0148,5,Bronze,14445,19,16,12,0.632,3,3,False,4596,Fashion,False,1838,288,1,False,Informed customer no refund applicable per policy; customer agreed.,LIKELY_ABUSER,34668
+C0149,23,Silver,8653,11,8,6,0.545,2,6,False,4627,Home_Goods,False,2082,270,0,False,,LIKELY_ABUSER,4514
+C0150,43,Silver,47995,62,34,4,0.065,0,0,False,1183,Toys_Books,False,473,222,0,False,,GENUINE,13393
+C0151,22,Gold,28612,10,10,8,0.8,2,6,False,277,Dairy,True,0,69,0,False,,LIKELY_ABUSER,15606
+C0152,2,Platinum,8930,2,3,0,0.0,1,3,False,1517,Toys_Books,False,606,273,0,False,,SUSPICIOUS,53580
+C0153,22,Bronze,88585,80,62,3,0.037,0,2,False,2211,Cosmetics,True,0,142,0,False,,GENUINE,48319
+C0154,15,Gold,71074,20,2,1,0.05,0,2,False,296,Dairy,True,0,162,1,False,Explained item is non-returnable (perishable); customer acknowledged.,GENUINE,56859
+C0155,23,Gold,66525,19,19,6,0.316,1,3,False,23787,Home_Appliance,False,14272,217,0,False,,SUSPICIOUS,34708
+C0156,50,Silver,56324,30,5,1,0.033,1,2,False,514,Frozen_Food,True,0,236,0,False,,GENUINE,13517
+C0157,60,Silver,95004,83,61,3,0.036,0,0,False,687,Cosmetics,True,0,267,0,False,,GENUINE,19000
+C0158,22,Bronze,11422,30,19,13,0.433,0,2,False,197,Toys_Books,False,78,195,0,False,,SUSPICIOUS,6230
+C0159,11,Bronze,59708,66,20,3,0.045,0,0,False,817,Cosmetics,True,0,278,0,False,,GENUINE,65136
+C0160,29,Silver,16911,16,11,5,0.312,0,2,False,231,Fresh_Produce,True,0,193,0,False,,SUSPICIOUS,6997
+C0161,60,Bronze,58693,86,71,4,0.047,0,1,False,25679,Home_Appliance,False,15407,117,2,False,Explained item is non-returnable (perishable); customer acknowledged.,GENUINE,11738
+C0162,2,Gold,4843,2,3,1,0.5,0,3,False,410,Meat_Seafood,True,0,106,1,False,Informed customer no refund applicable per policy; customer agreed.,SUSPICIOUS,29058
+C0163,17,Gold,156164,83,40,6,0.072,0,0,False,1848,Toys_Books,False,739,267,1,False,Informed customer no refund applicable per policy; customer agreed.,GENUINE,110233
+C0164,48,Bronze,77088,53,17,5,0.094,0,0,False,231,Dairy,True,0,236,0,False,,GENUINE,19272
+C0165,32,Silver,89388,65,30,6,0.092,0,1,False,29832,Electronics,False,19390,133,0,False,,GENUINE,33520
+C0166,26,Silver,22697,21,13,8,0.381,1,2,False,233,Fresh_Produce,True,0,97,2,True,Customer was assured replacement on last contact.,SUSPICIOUS,10475
+C0167,59,Platinum,204619,52,25,1,0.019,0,0,False,339,Frozen_Food,True,0,210,0,False,,GENUINE,41617
+C0168,68,Bronze,126187,107,28,7,0.065,1,1,False,17726,Electronics,False,11521,227,0,False,,GENUINE,22268
+C0169,13,Platinum,260717,82,0,0,0.0,0,0,False,115,Frozen_Food,True,0,79,2,False,Informed customer no refund applicable per policy; customer agreed.,GENUINE,240661
+C0170,21,Bronze,18277,19,19,15,0.789,2,3,False,26,Fresh_Produce,True,0,227,0,False,,LIKELY_ABUSER,10444
+C0171,70,Bronze,166797,119,21,8,0.067,1,0,False,872,Home_Goods,False,392,89,0,False,,GENUINE,28593
+C0172,40,Gold,283620,116,63,5,0.043,0,1,False,235,Frozen_Food,True,0,255,3,True,"Agent promised 20% coupon on previous call, not yet issued.",GENUINE,85086
+C0173,54,Bronze,31856,63,47,3,0.048,0,0,False,5118,Fashion,False,2047,207,1,False,Clarified no prior promise was made; resolved on call.,GENUINE,7079
+C0174,35,Platinum,236710,42,6,4,0.095,1,1,False,2713,Cosmetics,True,0,186,2,True,"Agent promised 20% coupon on previous call, not yet issued.",GENUINE,81157
+C0175,19,Platinum,15838,8,7,6,0.75,5,3,False,374,Frozen_Food,True,0,260,0,False,,LIKELY_ABUSER,10002
+C0176,13,Silver,5340,8,7,7,0.875,2,5,False,516,Frozen_Food,True,0,128,0,False,,LIKELY_ABUSER,4929
+C0177,56,Platinum,261637,114,66,4,0.035,0,1,False,4714,Home_Goods,False,2121,152,0,False,,GENUINE,56065
+C0178,3,Silver,10089,13,12,11,0.846,2,3,False,691,Meat_Seafood,True,0,122,1,True,"Prior agent committed to a refund, pending processing.",LIKELY_ABUSER,40356
+C0179,40,Silver,43383,28,14,0,0.0,0,1,False,2129,Home_Goods,False,958,46,0,False,,GENUINE,13014
+C0180,20,Bronze,10715,14,13,12,0.857,2,5,False,225,Dairy,True,0,185,0,False,,LIKELY_ABUSER,6429
+C0181,72,Bronze,23808,36,19,2,0.056,0,0,False,1131,Fashion,False,452,83,2,False,Informed customer no refund applicable per policy; customer agreed.,GENUINE,3968
+C0182,12,Gold,12851,12,12,11,0.917,5,4,False,169,Cosmetics,True,0,142,0,False,,LIKELY_ABUSER,12851
+C0183,11,Bronze,18429,18,16,11,0.611,3,5,False,329,Frozen_Food,True,0,86,0,False,,LIKELY_ABUSER,20104
+C0184,68,Bronze,112621,88,42,7,0.08,0,1,False,23170,Home_Appliance,False,13902,282,1,False,Clarified no prior promise was made; resolved on call.,GENUINE,19874
+C0185,9,Gold,175391,108,107,5,0.046,0,1,False,251,Dairy,True,0,246,0,False,,GENUINE,233854
+C0186,44,Silver,27990,45,25,1,0.022,0,1,False,1489,Toys_Books,False,595,144,0,False,,GENUINE,7633
+C0187,20,Platinum,34236,7,3,3,0.429,1,1,False,17471,Electronics,False,11356,199,0,False,,SUSPICIOUS,20541
+C0188,57,Silver,74295,111,5,4,0.036,1,0,False,345,Frozen_Food,True,0,174,0,False,,GENUINE,15641
+C0189,63,Silver,87229,62,3,2,0.032,0,1,False,1335,Cosmetics,True,0,290,3,True,"Agent promised 20% coupon on previous call, not yet issued.",GENUINE,16615
+C0190,49,Bronze,30451,73,66,6,0.082,1,1,False,2117,Fashion,False,846,118,0,False,,GENUINE,7457
+C0191,11,Bronze,3565,7,7,5,0.714,3,4,False,364,Meat_Seafood,True,0,150,0,False,,LIKELY_ABUSER,3889
+C0192,21,Gold,26659,9,6,5,0.556,5,6,False,313,Frozen_Food,True,0,151,1,True,"Agent promised 20% coupon on previous call, not yet issued.",LIKELY_ABUSER,15233
+C0193,28,Bronze,5529,8,5,3,0.375,1,2,False,949,Fashion,False,379,214,0,False,,SUSPICIOUS,2369
+C0194,11,Platinum,84135,16,14,12,0.75,2,5,False,600,Toys_Books,False,240,215,0,False,,LIKELY_ABUSER,91783
+C0195,16,Platinum,177896,101,40,1,0.01,0,0,False,63328,Electronics,False,41163,172,0,False,,GENUINE,133422
+C0196,0,Bronze,3550,4,2,1,0.25,1,2,False,249,Meat_Seafood,True,0,258,0,False,,SUSPICIOUS,42600
+C0197,1,Gold,53277,19,17,11,0.579,5,6,False,43188,Home_Appliance,False,25912,155,1,False,Explained item is non-returnable (perishable); customer acknowledged.,LIKELY_ABUSER,639324
+C0198,2,Bronze,2961,3,3,0,0.0,1,3,False,2359,Cosmetics,True,0,254,0,False,,SUSPICIOUS,17766
+C0199,2,Gold,6572,4,2,1,0.25,1,1,False,190,Fresh_Produce,True,0,130,0,False,,SUSPICIOUS,39432
+C0200,21,Silver,131466,114,97,9,0.079,0,2,False,1935,Toys_Books,False,774,83,1,True,"Agent promised 20% coupon on previous call, not yet issued.",GENUINE,75123
+C0201,50,Gold,134293,83,39,2,0.024,0,1,False,2864,Cosmetics,True,0,173,0,False,,GENUINE,32230
+C0202,23,Gold,125503,111,92,9,0.081,0,1,False,299,Meat_Seafood,True,0,224,0,False,,GENUINE,65479
+C0203,56,Gold,162160,77,49,1,0.013,0,1,False,138,Dairy,True,0,234,0,False,,GENUINE,34748
+C0204,64,Gold,204398,77,61,3,0.039,0,0,False,76959,Electronics,False,50023,246,0,False,,GENUINE,38324
+C0205,33,Platinum,309978,78,72,2,0.026,0,1,False,2572,Toys_Books,False,1028,244,0,False,,GENUINE,112719
+C0206,2,Gold,3008,4,3,0,0.0,0,3,False,13734,Home_Appliance,False,8240,219,3,True,"Prior agent committed to a refund, pending processing.",SUSPICIOUS,18048
+C0207,41,Bronze,28532,26,13,2,0.077,0,0,False,141,Meat_Seafood,True,0,202,0,False,,GENUINE,8350
+C0208,0,Gold,2531,1,1,0,0.0,1,1,True,3447,Home_Goods,False,1551,42,0,False,,SUSPICIOUS,30372
+C0209,14,Gold,23538,8,6,6,0.75,3,6,False,57,Dairy,True,0,135,2,False,Explained item is non-returnable (perishable); customer acknowledged.,LIKELY_ABUSER,20175
+C0210,5,Silver,25394,22,15,8,0.364,1,2,False,406,Frozen_Food,True,0,79,0,False,,SUSPICIOUS,60945
+C0211,33,Silver,48922,26,20,2,0.077,0,0,False,86802,Electronics,False,56421,121,2,True,Customer was assured replacement on last contact.,GENUINE,17789
+C0212,18,Bronze,11976,13,11,11,0.846,2,5,False,1064,Home_Goods,False,478,141,0,False,,LIKELY_ABUSER,7984
+C0213,36,Gold,182119,78,12,3,0.038,0,1,False,395,Fresh_Produce,True,0,282,3,True,"Prior agent committed to a refund, pending processing.",GENUINE,60706
+C0214,28,Bronze,42676,112,80,5,0.045,0,0,False,764,Cosmetics,True,0,279,0,False,,GENUINE,18289
+C0215,42,Bronze,37896,95,58,7,0.074,1,1,False,2757,Home_Goods,False,1240,79,1,True,Customer was assured replacement on last contact.,GENUINE,10827
+C0216,25,Platinum,390415,83,58,3,0.036,0,1,False,110,Frozen_Food,True,0,62,0,False,,GENUINE,187399
+C0217,20,Silver,9195,5,3,3,0.6,3,3,False,82,Fresh_Produce,True,0,287,0,False,,LIKELY_ABUSER,5517
+C0218,39,Gold,63181,36,2,1,0.028,0,0,False,17774,Home_Appliance,False,10664,56,0,False,,GENUINE,19440
+C0219,15,Silver,166137,78,67,4,0.051,0,0,False,394,Meat_Seafood,True,0,106,3,True,Customer was assured replacement on last contact.,GENUINE,132909
+C0220,2,Gold,2165,1,2,0,0.0,0,2,True,55373,Home_Appliance,False,33223,86,0,False,,SUSPICIOUS,12990
