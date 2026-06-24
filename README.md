@@ -223,3 +223,18 @@ In the notebook, the **"Module 2 — The Investigator (live stitch)"** section a
 end runs the real Reader into the Investigator end-to-end. Trust is judged from
 **history, not tone** — an angry message from a serial abuser is still flagged
 `LIKELY_ABUSER`.
+
+
+### Interactive UI — `lulucare_ui.html`
+
+A self-contained, single-file web demo of the Module 1 + Module 2 stitch — open it
+in any browser, no server or install needed. Type a complaint and pick a customer:
+the Reader classifies the message and the Investigator returns the trust verdict
+(genuineness, claim status, risk score, and the exact signals that fired). The
+Module 2 rules run live in JavaScript, mirroring `investigator.py` one-to-one, so
+the angry-message-from-an-abuser case still resolves to `LIKELY_ABUSER` — trust
+from history, not tone. Light/dark themed.
+
+```bash
+open lulucare_ui.html      # or just double-click it
+```
