@@ -23,6 +23,7 @@ on any machine. In Colab, pass the REAL `read_message` from the notebook instead
 
 import csv
 from investigator import investigate
+from module3_resolution_engine import decide_resolution
 
 
 def run_pipeline(message, customer_id, read_message, lookup_profile):
@@ -41,6 +42,24 @@ def run_pipeline(message, customer_id, read_message, lookup_profile):
         "customer_id": customer_id,
         "reader": reader,        # Module 1 output
         "verdict": verdict,      # Module 2 output -> hand to Module 3 (Economist)
+    }
+
+
+def run_full_pipeline(message, customer_id, read_message, lookup_profile):
+    """
+    Full M1 -> M2 -> M3 stitch. Same as run_pipeline but also runs the Economist,
+    returning the decision contract that Module 4 (the Voice) will consume.
+    """
+    reader = read_message(message)                       # Module 1: understand
+    profile = lookup_profile(customer_id)                # history
+    verdict = investigate(reader, profile)               # Module 2: judge trust
+    decision = decide_resolution(reader, verdict, profile)  # Module 3: decide remedy
+    return {
+        "message": message,
+        "customer_id": customer_id,
+        "reader": reader,        # Module 1
+        "verdict": verdict,      # Module 2
+        "decision": decision,    # Module 3 -> Module 4 reads this
     }
 
 
@@ -92,15 +111,19 @@ if __name__ == "__main__":
     demos = [
         ("My refund still has not arrived and I am FURIOUS!! This is unacceptable!!", "C0001"),
         ("Hi, my delivery is a bit late, could you check on it?",                     "C0002"),
+        ("The TV arrived with a cracked screen straight out of the box.",             "C0001"),
         ("Your rep promised me a refund last week and nothing happened.",             "C0002"),
     ]
     for msg, cid in demos:
-        out = run_pipeline(msg, cid, mock_read_message, lookup)
+        out = run_full_pipeline(msg, cid, mock_read_message, lookup)
+        d = out["decision"]
         print("=" * 78)
         print("MESSAGE   :", msg)
         print("CUSTOMER  :", cid)
         print("READER    :", out["reader"])
-        print("VERDICT   : genuineness=%s  claim_status=%s  risk_score=%s"
-              % (out["verdict"]["genuineness"], out["verdict"]["claim_status"],
-                 out["verdict"]["risk_score"]))
-        print("REASON    :", out["verdict"]["reason"])
+        print("TRUST     : genuineness=%s claim=%s"
+              % (out["verdict"]["genuineness"], out["verdict"]["claim_status"]))
+        print("DECISION  : action=%s refund_type=%s coupon=%s wallet=%s email=%s value=%s"
+              % (d["action"], d["refund_type"], d["coupon_percent"], d["wallet_credit"],
+                 d["email_trigger"], d["value_band"]))
+        print("REASON    :", d["reason"])

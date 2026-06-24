@@ -238,3 +238,33 @@ from history, not tone. Light/dark themed.
 ```bash
 open lulucare_ui.html      # or just double-click it
 ```
+
+---
+
+## 10. Module 3 integration (the Economist)
+
+Module 3 — **The Economist** — is now wired into the pipeline. It consumes the
+Reader output + Investigator verdict + profile and emits the decision contract
+Module 4 consumes.
+
+| File | Purpose |
+|---|---|
+| `module3_resolution_engine.py` | Module 3: `decide_resolution(reader, verdict, profile)` (and a handbook-signature `decide(verdict, reader, profile)` alias) → `{action, refund_type, coupon_percent, wallet_credit, escalate, email_trigger, value_band, risk_score, resolution_score, reason, audit_trail}`. Pure stdlib, transparent rules. |
+| `pipeline.py` | `run_full_pipeline(...)` now chains M1 → M2 → M3. |
+| `test_pipeline.py` | M2 → M3 over all 220 customers: contract invariants + automation rate. |
+| `lulucare_ui.html` | UI now shows all three stages, including the Economist's decision. |
+
+Covers every required check: value band (Check 3), remediation tier (Check 4),
+refund-logistics tree (Check 5), escalation valve (Check 6), email trigger (Check 7),
+and the automation-rate metric.
+
+```bash
+python3 module3_resolution_engine.py   # 10/10 mandated scenarios, ~90% automation
+python3 test_pipeline.py               # full stitch over 220 customers, 94.5% automation
+```
+
+Verified: 0 contract violations across 220 customers; email fires only on
+COUPON / WALLET_CREDIT / REFUND; the JS port in the UI matches the Python engine 1:1.
+
+> Note for Module 4: `wallet_credit` is denominated in USD here; align the
+> currency label in the Voice's reply text with the rest of the team.

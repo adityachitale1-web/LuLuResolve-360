@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>LuluCare 360 — Pipeline Demo (Module 1 + Module 2)</title>
+<title>LuluCare 360 — Pipeline Demo (Modules 1 + 2 + 3)</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/2.47.0/iconfont/tabler-icons.min.css"/>
 <style>
 :root{
@@ -37,17 +37,18 @@ button:active{transform:scale(0.98)}
 .lc-chip{display:inline-block;font-size:12px;padding:3px 9px;border-radius:var(--border-radius-md);background:var(--color-background-secondary);color:var(--color-text-secondary);margin:3px 3px 0 0;font-family:var(--font-mono);}
 .lc-row{display:flex;justify-content:space-between;align-items:center;padding:5px 0;font-size:13px;border-top:0.5px solid var(--color-border-tertiary);}
 .lc-lbl{font-size:12px;color:var(--color-text-secondary);margin-bottom:8px;}
+.stagenum{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:50%;background:var(--color-background-secondary);color:var(--color-text-secondary);font-size:11px;margin-right:6px;}
 </style>
 </head>
 <body>
 <div class="wrap">
-<h2 class="sr-only">Interactive demo of the LuluCare 360 pipeline. Type a complaint and pick a customer; Module 1 reads the message and Module 2 judges whether the customer is genuine or gaming the system, using history rather than tone.</h2>
+<h2 class="sr-only">Interactive demo of the LuluCare 360 pipeline. Type a complaint and pick a customer; Module 1 reads the message, Module 2 judges trust from history, and Module 3 decides a fair, economically sound resolution.</h2>
 
   <div style="display:flex;align-items:center;gap:10px;margin-bottom:2px;">
     <i class="ti ti-shield-check" style="font-size:22px;color:var(--color-text-info)" aria-hidden="true"></i>
     <h1 style="margin:0;font-size:22px;">LuluCare 360</h1>
   </div>
-  <p style="margin:0 0 1.25rem;color:var(--color-text-secondary);font-size:14px;">Complaint co-pilot — Module 1 reads the text, Module 2 judges the trust</p>
+  <p style="margin:0 0 1.25rem;color:var(--color-text-secondary);font-size:14px;">Complaint co-pilot — the Reader understands, the Investigator judges trust, the Economist decides</p>
 
   <div class="lc-card">
     <div class="lc-lbl">Customer message</div>
@@ -60,7 +61,7 @@ button:active{transform:scale(0.98)}
 
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:12px;margin-top:12px;">
     <div class="lc-card">
-      <div class="lc-lbl"><i class="ti ti-message-2" style="font-size:14px;vertical-align:-2px;margin-right:4px" aria-hidden="true"></i>Module 1 — the Reader</div>
+      <div class="lc-lbl"><span class="stagenum">1</span>The Reader <span style="color:var(--color-text-tertiary)">· understands</span></div>
       <div id="reader"></div>
     </div>
     <div class="lc-card">
@@ -70,28 +71,33 @@ button:active{transform:scale(0.98)}
   </div>
 
   <div class="lc-card" style="margin-top:12px;">
-    <div class="lc-lbl"><i class="ti ti-gavel" style="font-size:14px;vertical-align:-2px;margin-right:4px" aria-hidden="true"></i>Module 2 — the Investigator verdict</div>
+    <div class="lc-lbl"><span class="stagenum">2</span>The Investigator <span style="color:var(--color-text-tertiary)">· judges trust</span></div>
     <div id="verdict"></div>
   </div>
 
-  <p style="font-size:12px;color:var(--color-text-tertiary);margin-top:10px;line-height:1.6;">Module 2's rules run live in your browser. The Reader here is a keyword stand-in for the trained LSTM — in Colab the real read_message() takes its place. Trust comes from history, never from how angry the message sounds.</p>
+  <div class="lc-card" style="margin-top:12px;">
+    <div class="lc-lbl"><span class="stagenum">3</span>The Economist <span style="color:var(--color-text-tertiary)">· decides the resolution</span></div>
+    <div id="decision"></div>
+  </div>
+
+  <p style="font-size:12px;color:var(--color-text-tertiary);margin-top:10px;line-height:1.6;">All three modules run live in your browser, mirroring investigator.py and module3_resolution_engine.py one-to-one. The Reader here is a keyword stand-in for the trained LSTM. Trust comes from history, not tone — and the Economist never rewards an abuser, however angry the message.</p>
 </div>
 <script>
 const CUSTOMERS=[
-{id:"C0001",label:"serial abuser",tier:"Silver",account_age_months:1,total_orders:6,total_refunds_received:5,refund_to_order_ratio:0.833,items_kept_after_refund:2,complaints_last_30_days:4,total_complaints:5,is_first_purchase:false,prior_promise_logged:false,prior_contacts_this_issue:0,customer_care_notes:""},
-{id:"C0006",label:"serial abuser + kept items",tier:"Silver",account_age_months:14,total_orders:19,total_refunds_received:11,refund_to_order_ratio:0.579,items_kept_after_refund:4,complaints_last_30_days:4,total_complaints:11,is_first_purchase:false,prior_promise_logged:true,prior_contacts_this_issue:2,customer_care_notes:"Customer was assured replacement on last contact."},
-{id:"C0008",label:"moderate-ratio suspicious",tier:"Silver",account_age_months:0,total_orders:4,total_refunds_received:1,refund_to_order_ratio:0.25,items_kept_after_refund:1,complaints_last_30_days:2,total_complaints:3,is_first_purchase:false,prior_promise_logged:false,prior_contacts_this_issue:0,customer_care_notes:""},
-{id:"C0016",label:"new-account chancer",tier:"Gold",account_age_months:0,total_orders:1,total_refunds_received:0,refund_to_order_ratio:0.0,items_kept_after_refund:0,complaints_last_30_days:3,total_complaints:3,is_first_purchase:true,prior_promise_logged:false,prior_contacts_this_issue:0,customer_care_notes:""},
-{id:"C0002",label:"loyal high-volume (genuine)",tier:"Bronze",account_age_months:22,total_orders:107,total_refunds_received:10,refund_to_order_ratio:0.093,items_kept_after_refund:1,complaints_last_30_days:0,total_complaints:70,is_first_purchase:false,prior_promise_logged:false,prior_contacts_this_issue:0,customer_care_notes:""},
-{id:"C0013",label:"genuine + confirmed promise",tier:"Silver",account_age_months:60,total_orders:86,total_refunds_received:0,refund_to_order_ratio:0.0,items_kept_after_refund:0,complaints_last_30_days:0,total_complaints:69,is_first_purchase:false,prior_promise_logged:true,prior_contacts_this_issue:2,customer_care_notes:"Prior agent committed to a refund, pending processing."},
-{id:"C0009",label:"genuine + contradicted claim",tier:"Bronze",account_age_months:46,total_orders:111,total_refunds_received:10,refund_to_order_ratio:0.09,items_kept_after_refund:0,complaints_last_30_days:1,total_complaints:89,is_first_purchase:false,prior_promise_logged:false,prior_contacts_this_issue:2,customer_care_notes:"Explained item is non-returnable (perishable); customer acknowledged."}
+{id:"C0001",label:"serial abuser",tier:"Silver",account_age_months:1,total_orders:6,total_refunds_received:5,refund_to_order_ratio:0.833,items_kept_after_refund:2,complaints_last_30_days:4,total_complaints:5,is_first_purchase:false,prior_promise_logged:false,prior_contacts_this_issue:0,customer_care_notes:"",order_value:9164,clv_estimate:159720,resale_value:5956,reverse_logistics_cost:101,is_perishable_or_hygiene:false,product_category:"Electronics"},
+{id:"C0006",label:"serial abuser + kept items",tier:"Silver",account_age_months:14,total_orders:19,total_refunds_received:11,refund_to_order_ratio:0.579,items_kept_after_refund:4,complaints_last_30_days:4,total_complaints:11,is_first_purchase:false,prior_promise_logged:true,prior_contacts_this_issue:2,customer_care_notes:"Customer was assured replacement on last contact.",order_value:445,clv_estimate:25926,resale_value:200,reverse_logistics_cost:121,is_perishable_or_hygiene:false,product_category:"Home_Goods"},
+{id:"C0008",label:"moderate-ratio suspicious",tier:"Silver",account_age_months:0,total_orders:4,total_refunds_received:1,refund_to_order_ratio:0.25,items_kept_after_refund:1,complaints_last_30_days:2,total_complaints:3,is_first_purchase:false,prior_promise_logged:false,prior_contacts_this_issue:0,customer_care_notes:"",order_value:23765,clv_estimate:41856,resale_value:15447,reverse_logistics_cost:142,is_perishable_or_hygiene:false,product_category:"Electronics"},
+{id:"C0016",label:"new-account chancer",tier:"Gold",account_age_months:0,total_orders:1,total_refunds_received:0,refund_to_order_ratio:0.0,items_kept_after_refund:0,complaints_last_30_days:3,total_complaints:3,is_first_purchase:true,prior_promise_logged:false,prior_contacts_this_issue:0,customer_care_notes:"",order_value:2293,clv_estimate:16176,resale_value:917,reverse_logistics_cost:253,is_perishable_or_hygiene:false,product_category:"Fashion"},
+{id:"C0002",label:"loyal high-volume (genuine)",tier:"Bronze",account_age_months:22,total_orders:107,total_refunds_received:10,refund_to_order_ratio:0.093,items_kept_after_refund:1,complaints_last_30_days:0,total_complaints:70,is_first_purchase:false,prior_promise_logged:false,prior_contacts_this_issue:0,customer_care_notes:"",order_value:129,clv_estimate:74062,resale_value:0,reverse_logistics_cost:211,is_perishable_or_hygiene:true,product_category:"Frozen_Food"},
+{id:"C0013",label:"genuine + confirmed promise",tier:"Silver",account_age_months:60,total_orders:86,total_refunds_received:0,refund_to_order_ratio:0.0,items_kept_after_refund:0,complaints_last_30_days:0,total_complaints:69,is_first_purchase:false,prior_promise_logged:true,prior_contacts_this_issue:2,customer_care_notes:"Prior agent committed to a refund, pending processing.",order_value:53678,clv_estimate:9445,resale_value:34890,reverse_logistics_cost:78,is_perishable_or_hygiene:false,product_category:"Electronics"},
+{id:"C0009",label:"genuine + contradicted claim",tier:"Bronze",account_age_months:46,total_orders:111,total_refunds_received:10,refund_to_order_ratio:0.09,items_kept_after_refund:0,complaints_last_30_days:1,total_complaints:89,is_first_purchase:false,prior_promise_logged:false,prior_contacts_this_issue:2,customer_care_notes:"Explained item is non-returnable (perishable); customer acknowledged.",order_value:49,clv_estimate:43381,resale_value:0,reverse_logistics_cost:95,is_perishable_or_hygiene:true,product_category:"Dairy"}
 ];
 const T={AB_RATIO:0.5,AB_KEPT:2,AB_BURST:4,SU_RATIO:0.25,SU_BURST:3,NEW_MO:2,LOWVOL:5,DIL_REF:8,DIL_RATIO:0.25,CHRONIC:0.6};
 function mockReader(t){t=(t||"").toLowerCase();let i="General_Query",c=0.55;
- if(/deliver|courier|arriv|package|shipment/.test(t)){i="Delivery";c=0.9;}
+ if(/crack|broke|broken|damag|defect|faulty|dent|screen/.test(t)){i="Damaged_Defective";c=0.87;}
+ else if(/deliver|courier|arriv|package|shipment/.test(t)){i="Delivery";c=0.9;}
  else if(/refund|return|money back/.test(t)){i="Refund_Return";c=0.88;}
  else if(/charg|bill|invoice|payment/.test(t)){i="Billing";c=0.9;}
- else if(/crack|broke|damag|defect|faulty|dent/.test(t)){i="Damaged_Defective";c=0.87;}
  else if(/app|website|crash|login|loading/.test(t)){i="App_Technical";c=0.9;}
  else if(/quality|cheap|material|wore out/.test(t)){i="Product_Quality";c=0.82;}
  let f="Low";
@@ -122,26 +128,63 @@ function verify(p){const n=(p.customer_care_notes||"").toLowerCase(),pl=p.prior_
  const aff=pl||AFF.some(re=>re.test(n));
  if(aff){if(pl||ct>=1){fl.push("records_confirm_claim");return {status:"CONFIRMED",flags:fl};}fl.push("phantom_promise_no_contact");return {status:"UNVERIFIED",flags:fl};}
  fl.push(ct===0&&!n.trim()?"no_record_of_contact":"no_supporting_evidence");return {status:"UNVERIFIED",flags:fl};}
-function riskScore(g,cs,flags){let base={GENUINE:5,SUSPICIOUS:45,LIKELY_ABUSER:90}[g];if(cs==="CONTRADICTED")base+=8;const soft=new Set(["possible_ratio_dilution","chronic_complainer","phantom_promise_no_contact"]);flags.forEach(f=>{base+=soft.has(f.split("(")[0])?1:2;});return Math.max(0,Math.min(100,Math.round(base)));}
+function riskScoreM2(g,cs,flags){let base={GENUINE:5,SUSPICIOUS:45,LIKELY_ABUSER:90}[g];if(cs==="CONTRADICTED")base+=8;const soft=new Set(["possible_ratio_dilution","chronic_complainer","phantom_promise_no_contact"]);flags.forEach(f=>{base+=soft.has(f.split("(")[0])?1:2;});return Math.max(0,Math.min(100,Math.round(base)));}
+// ---- Module 3: the Economist (ported 1:1 from module3_resolution_engine.py) ----
+const M3={HIGH_OV:5000,SERIOUS_DELIV:2000,RESALE_FLOOR:2000,WCAP_STD:500,WRATE_STD:0.20,WCAP_SUS:100,WRATE_SUS:0.10,LOWCONF:0.50,VHRISK:80,CLV_HI:40000,CLV_MED:12000};
+const PFI=new Set(["Damaged_Defective","Product_Quality"]);
+const LSI=new Set(["App_Technical","General_Query"]);
+const clamp=(v,lo,hi)=>Math.max(lo,Math.min(hi,v));
+function valueBand(p){const t=(p.tier||"").trim();if(t==="Platinum"||p.clv_estimate>=M3.CLV_HI)return "HIGH";if(t==="Gold"||t==="Silver"||p.clv_estimate>=M3.CLV_MED)return "MEDIUM";return "LOW";}
+function calcRiskM3(p,g){let s=0;s+=clamp(p.refund_to_order_ratio*60,0,40);s+=clamp(p.items_kept_after_refund*10,0,20);s+=clamp(p.complaints_last_30_days*7,0,21);if(p.account_age_months<=2)s+=10;if(p.is_first_purchase)s+=8;if(g==="LIKELY_ABUSER")s+=25;else if(g==="SUSPICIOUS")s+=12;return Math.round(clamp(s,0,100));}
+function refundLogistics(p){if(p.is_perishable_or_hygiene)return "KEEP_ITEM";if(p.resale_value>=M3.RESALE_FLOOR)return "PICKUP";if(p.reverse_logistics_cost>p.resale_value)return "KEEP_ITEM";return "PICKUP";}
+function shouldEscalate(r,g,cs,p,action,risk){const ov=p.order_value,conf=r.confidence,band=valueBand(p);
+ if(g==="SUSPICIOUS"&&action==="REFUND"&&ov>M3.HIGH_OV)return true;
+ if(conf<M3.LOWCONF&&band==="HIGH")return true;
+ if(cs==="CONTRADICTED"&&ov>M3.HIGH_OV)return true;
+ if(risk>=M3.VHRISK&&ov>M3.HIGH_OV)return true;
+ return false;}
+function decide(r,v,p){const g=v.label,cs=v.status,issue=r.issue_type,fr=r.frustration,ov=p.order_value;
+ const band=valueBand(p),risk=calcRiskM3(p,g);
+ let D={action:"ACKNOWLEDGE",refund_type:"NONE",coupon_percent:0,wallet_credit:0,value_band:band,risk_score:risk,reason:""};
+ const fin=()=>{const EM=new Set(["COUPON","WALLET_CREDIT","REFUND"]);if(D.action!=="REFUND")D.refund_type="NONE";if(D.action!=="COUPON")D.coupon_percent=0;if(D.action!=="WALLET_CREDIT")D.wallet_credit=0;D.email_trigger=EM.has(D.action);D.escalate=D.action==="ESCALATE";return D;};
+ const esc=()=>{if(shouldEscalate(r,g,cs,p,D.action,risk)){const prior=D.action;D.action="ESCALATE";D.reason="Escalation valve fired (was "+prior+"): high stakes with low certainty/trust.";}return fin();};
+ if(g==="LIKELY_ABUSER"){D.action="ACKNOWLEDGE";D.reason="Likely abuser: acknowledge only, no compensation, no email.";return fin();}
+ if(cs==="CONFIRMED"){D.action="REFUND";D.refund_type=refundLogistics(p);D.reason="Confirmed prior promise honoured: refund with "+D.refund_type+" logistics.";return esc();}
+ if(g==="SUSPICIOUS"&&ov>M3.HIGH_OV){D.action="ESCALATE";D.reason="Suspicious customer with high order value: escalate to human, no automatic payout.";return fin();}
+ if(cs==="CONTRADICTED"&&ov>M3.HIGH_OV){if(risk>=M3.VHRISK/2){D.action="ESCALATE";D.reason="Claim contradicted by records at high value with elevated risk: escalate.";}else{D.action="ACKNOWLEDGE";D.reason="Claim contradicted by records: respond from the record, no payout.";}return fin();}
+ if(g==="SUSPICIOUS"){D.action="WALLET_CREDIT";D.wallet_credit=Math.round(Math.min(ov*M3.WRATE_SUS,M3.WCAP_SUS)*100)/100;D.reason="Suspicious but not abusive: capped goodwill of USD "+D.wallet_credit+" in wallet credit, pending verification.";return esc();}
+ if(PFI.has(issue)){D.action="REFUND";D.refund_type=refundLogistics(p);D.reason="Genuine product failure: full refund with "+D.refund_type+" logistics.";return esc();}
+ if(LSI.has(issue)){if(band==="HIGH"&&fr==="High"){D.action="COUPON";D.coupon_percent=50;D.reason="High-value customer, high frustration on a service issue: 50% retention coupon.";}else if(fr==="High"){D.action="COUPON";D.coupon_percent=20;D.reason="Service issue with high frustration: 20% goodwill coupon.";}else{D.action="ACKNOWLEDGE";D.reason="Low-stakes service issue, low/medium frustration: acknowledge, no payout.";}return esc();}
+ if(fr==="High"){
+   if(band==="HIGH"){if(issue==="Delivery"&&ov>=M3.SERIOUS_DELIV){D.action="REFUND";D.refund_type=refundLogistics(p);D.reason="High-value customer, serious delivery failure: full refund.";}else{D.action="COUPON";D.coupon_percent=50;D.reason="High-value customer, high frustration: 50% retention coupon.";}}
+   else{if(issue==="Delivery"&&ov>=M3.SERIOUS_DELIV){D.action="REFUND";D.refund_type=refundLogistics(p);D.reason="Genuine serious delivery failure: full refund.";}else{D.action="WALLET_CREDIT";D.wallet_credit=Math.round(Math.min(ov*M3.WRATE_STD,M3.WCAP_STD)*100)/100;D.reason="Genuine high-frustration issue: USD "+D.wallet_credit+" wallet credit (capped goodwill).";}}
+ } else if(fr==="Medium"){
+   if(band==="HIGH"||band==="MEDIUM"){D.action="WALLET_CREDIT";D.wallet_credit=Math.round(Math.min(ov*M3.WRATE_STD,M3.WCAP_STD)*100)/100;D.reason="Genuine medium-frustration issue: USD "+D.wallet_credit+" wallet credit.";}else{D.action="COUPON";D.coupon_percent=20;D.reason="Genuine medium-frustration issue, lower value: 20% goodwill coupon.";}
+ } else {D.action="ACKNOWLEDGE";D.reason="Genuine routine issue, low frustration: acknowledge with no payout.";}
+ return esc();}
 const GMAP={GENUINE:["success","ti-circle-check"],SUSPICIOUS:["warning","ti-alert-triangle"],LIKELY_ABUSER:["danger","ti-alert-octagon"]};
 const CMAP={CONFIRMED:["info","ti-checks"],CONTRADICTED:["danger","ti-ban"],UNVERIFIED:["secondary","ti-help-circle"]};
+const AMAP={REFUND:["success","ti-cash"],COUPON:["info","ti-ticket"],WALLET_CREDIT:["info","ti-wallet"],ACKNOWLEDGE:["secondary","ti-message-dots"],ESCALATE:["warning","ti-user-up"]};
 function badge(text,kind,icon){const bg=kind==="secondary"?"var(--color-background-secondary)":"var(--color-background-"+kind+")";const fg=kind==="secondary"?"var(--color-text-secondary)":"var(--color-text-"+kind+")";return '<span class="lc-badge" style="background:'+bg+';color:'+fg+'"><i class="ti '+icon+'" style="font-size:15px" aria-hidden="true"></i>'+text+'</span>';}
 function frBadge(f){const m={High:"danger",Medium:"warning",Low:"success"}[f];return badge(f,m,"ti-mood-"+(f==="High"?"sad":f==="Medium"?"neutral":"smile"));}
 const $=id=>document.getElementById(id);
 function fill(){const s=$("cust");CUSTOMERS.forEach(c=>{const o=document.createElement("option");o.value=c.id;o.textContent=c.id+" — "+c.label+" ("+c.tier+")";s.appendChild(o);});s.value="C0001";}
+function row(l,v,warn,noTop){return '<div class="lc-row"'+(noTop?' style="border-top:none"':'')+'><span style="color:var(--color-text-secondary)">'+l+'</span><span style="font-weight:500;color:'+(warn?'var(--color-text-danger)':'inherit')+'">'+v+'</span></div>';}
 function render(){const p=CUSTOMERS.find(c=>c.id===$("cust").value);const rd=mockReader($("msg").value);
- $("reader").innerHTML='<div class="lc-row" style="border-top:none"><span style="color:var(--color-text-secondary)">Issue type</span><span style="font-weight:500">'+rd.issue_type+'</span></div>'+
-  '<div class="lc-row"><span style="color:var(--color-text-secondary)">Frustration</span>'+frBadge(rd.frustration)+'</div>'+
-  '<div class="lc-row"><span style="color:var(--color-text-secondary)">Confidence</span><span style="font-weight:500">'+Math.round(rd.confidence*100)+'%</span></div>';
- const hrow=(l,v,warn)=>'<div class="lc-row"'+(l==="Refund ratio"?' style="border-top:none"':'')+'><span style="color:var(--color-text-secondary)">'+l+'</span><span style="font-weight:500;color:'+(warn?'var(--color-text-danger)':'inherit')+'">'+v+'</span></div>';
- $("history").innerHTML=hrow("Refund ratio",p.refund_to_order_ratio.toFixed(2),p.refund_to_order_ratio>=0.5)+hrow("Items kept after refund",p.items_kept_after_refund,p.items_kept_after_refund>=2)+hrow("Complaints (30d)",p.complaints_last_30_days,p.complaints_last_30_days>=4)+hrow("Account age",p.account_age_months+" mo",p.account_age_months<=2)+hrow("Total orders",p.total_orders,false);
- const g=assess(p),c=verify(p),flags=g.flags.concat(c.flags),score=riskScore(g.label,c.status,flags);
+ $("reader").innerHTML=row("Issue type",rd.issue_type,false,true)+'<div class="lc-row"><span style="color:var(--color-text-secondary)">Frustration</span>'+frBadge(rd.frustration)+'</div>'+row("Confidence",Math.round(rd.confidence*100)+'%',false,false);
+ $("history").innerHTML=row("Refund ratio",p.refund_to_order_ratio.toFixed(2),p.refund_to_order_ratio>=0.5,true)+row("Items kept",p.items_kept_after_refund,p.items_kept_after_refund>=2,false)+row("Complaints (30d)",p.complaints_last_30_days,p.complaints_last_30_days>=4,false)+row("Account age",p.account_age_months+" mo",p.account_age_months<=2,false)+row("Order value",'$'+p.order_value.toLocaleString(),false,false);
+ const v=assess(p),c=verify(p),flags=v.flags.concat(c.flags),score=riskScoreM2(v.label,c.status,flags);
  const sk=score<40?"success":score<70?"warning":"danger";
  const chips=flags.map(f=>'<span class="lc-chip">'+f+'</span>').join("");
- $("verdict").innerHTML='<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px">'+badge(g.label,GMAP[g.label][0],GMAP[g.label][1])+badge("claim "+c.status,CMAP[c.status][0],CMAP[c.status][1])+'</div>'+
+ $("verdict").innerHTML='<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px">'+badge(v.label,GMAP[v.label][0],GMAP[v.label][1])+badge("claim "+c.status,CMAP[c.status][0],CMAP[c.status][1])+'</div>'+
   '<div style="display:flex;align-items:center;gap:10px;margin-bottom:6px"><span style="font-size:12px;color:var(--color-text-secondary);min-width:64px">Risk score</span><div style="flex:1;height:8px;background:var(--color-background-secondary);border-radius:6px;overflow:hidden"><div style="width:'+score+'%;height:100%;background:var(--color-text-'+sk+')"></div></div><span style="font-weight:500;min-width:30px;text-align:right">'+score+'</span></div>'+
-  '<div style="margin:12px 0 4px"><span style="font-size:12px;color:var(--color-text-secondary)">Signals that fired</span><br>'+(chips||'<span class="lc-chip">none</span>')+'</div>'+
-  '<div style="margin-top:12px;padding-top:10px;border-top:0.5px solid var(--color-border-tertiary);font-size:13px;color:var(--color-text-secondary);line-height:1.6"><span style="color:var(--color-text-primary);font-weight:500">Reason: </span>'+g.label+' (refund ratio '+p.refund_to_order_ratio.toFixed(2)+' over '+p.total_orders+' orders, '+p.items_kept_after_refund+' item(s) kept); claim is '+c.status+'.</div>';
+  '<div style="margin:12px 0 4px"><span style="font-size:12px;color:var(--color-text-secondary)">Signals that fired</span><br>'+(chips||'<span class="lc-chip">none</span>')+'</div>';
+ const d=decide({issue_type:rd.issue_type,frustration:rd.frustration,confidence:rd.confidence},v,p);
+ const am=AMAP[d.action];const money=d.action==="COUPON"?(d.coupon_percent+"% coupon"):d.action==="WALLET_CREDIT"?("$"+d.wallet_credit+" wallet credit"):d.action==="REFUND"?("full refund · "+d.refund_type):"—";
+ const emailB=d.email_trigger?badge("email fires","info","ti-mail"):badge("no email","secondary","ti-mail-off");
+ $("decision").innerHTML='<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px">'+badge(d.action,am[0],am[1])+emailB+badge(d.value_band+" value","secondary","ti-star")+'</div>'+
+  row("Remedy",money,false,true)+(d.action==="REFUND"?row("Logistics",d.refund_type==="PICKUP"?"collect the item":"let them keep it",false,false):"")+
+  '<div style="margin-top:12px;padding-top:10px;border-top:0.5px solid var(--color-border-tertiary);font-size:13px;color:var(--color-text-secondary);line-height:1.6"><span style="color:var(--color-text-primary);font-weight:500">Reason: </span>'+d.reason+'</div>';
 }
 fill();$("run").addEventListener("click",render);$("cust").addEventListener("change",render);$("msg").addEventListener("input",render);render();
 </script>
