@@ -196,3 +196,30 @@ they are part of the contract.
 
 This turns a single softmax number into a transparent, defensible control over how much
 the co-pilot is trusted to act on its own.
+
+---
+
+## 9. Module 2 integration (the stitch)
+
+Module 2 — **The Investigator** — is now wired into this repo. It consumes the
+Reader's `{issue_type, frustration, confidence}` plus the customer's history and
+returns a trust verdict for Module 3.
+
+| File | Purpose |
+|---|---|
+| `investigator.py` | Module 2: `investigate(reader_output, profile)` → `{genuineness, claim_status, reason, risk_score, risk_flags}`. Transparent rules. |
+| `pipeline.py` | The stitch: `run_pipeline(message, customer_id, read_message, lookup_profile)`. Runs offline with a mock Reader, or with the real `read_message` in Colab. |
+| `mocks.py` / `test_investigator.py` | 14 mock fraud/claim cases — `python3 test_investigator.py`. |
+| `validate_against_dataset.py` | Validates the rules vs the dataset's ground-truth `_archetype` — **100% (220/220)**. |
+| `MODULE2_README.md` | Full rule set, the fraud loopholes it closes, and the stitch contract. |
+
+```bash
+python3 pipeline.py              # end-to-end stitch demo (no TensorFlow needed)
+python3 test_investigator.py     # 14/14 unit cases pass
+python3 validate_against_dataset.py
+```
+
+In the notebook, the **"Module 2 — The Investigator (live stitch)"** section at the
+end runs the real Reader into the Investigator end-to-end. Trust is judged from
+**history, not tone** — an angry message from a serial abuser is still flagged
+`LIKELY_ABUSER`.
